@@ -2,51 +2,74 @@
 @section('title', 'Home')
 @section('content')
 
-<div id="fullpage">
+<!-- section1 start -->
+<section id="fullpage">
+  <!-- slider 1 start -->
   <div class="section slider1">
     <div class="container">
-
       <div class="slide1">
-        
         <h2 class="no-margin pad-bot-20 trochut-font">VIEW COLLECTION</h2>
         <h3 class="news-font no-margin">CUSTOM TAILORED CLOTHING</h3>
-        <button type="button" class="btn btn-primary btn1 m-t-30 news-font">SHOP WOMEN</button>
-        <button type="button" class="btn btn-primary btn2 m-t-30 news-font">SHOP MEN</button>
+        <div class="m-t-30">
+          <button type="button" class="btn slide1-btn1 news-font">SHOP WOMEN</button>
+          <button type="button" class="btn slide1-btn2 news-font">SHOP MEN</button>
+        </div>        
       </div>       
     </div>
   </div>
+  <!-- slider 1 close -->
+
+  <!-- slider 2 start -->
   <div class="section slider2">
     <div class="container">
       <div class="slide2">
-
-        <h2>we make it fit</h2>
-        <h3>we make it personal</h3>
-        <h4>we make it right</h4>
-        <button type="button" class="btn btn-primary btn1">SHOP WOMEN</button>
-        <button type="button" class="btn btn-primary btn2">SHOP MEN</button>
+        <h2 class="trochut-font no-margin pad-bot-20">WE MAKE IT FIT</h2>
+        <h3 class="trochut-font no-margin ">WE MAKE IT PERSONAL</h3>
+        <h4 class="trochut-font no-margin pad-top-10">WE MAKE IT RIGHT</h4>
+        <div class="m-t-30">
+          <button type="button" class="btn slide1-btn1 news-font">SHOP WOMEN</button>
+          <button type="button" class="btn slide1-btn2 news-font">SHOP MEN</button>
+        </div>
       </div>       
     </div>
   </div>
+  <!-- slider 2 close -->
+
+  <!-- slider 3 start -->
   <div class="section slider3">
     <div class="container">
       <div class="slide3">
 
         <div class="slide3-inner">
-        <h2>True Personalization</h2>
-        <h3>COLLECTION</h3>
+        <h2 class="news-font pad-top-20">True Personalization</h2>
+        <h3 class="abril-font no-margin">COLLECTION</h3>
         <hr>
         <div class="slide3-bottom">
-          <h4>True Measurement</h4>
-        <button type="button" class="btn btn-primary btn3">Shop Men</button>
-        <button type="button" class="btn btn-primary btn4">Shop Women</button>
+          <h4 class="news-font pad-bot-20 no-margin">True Measurement</h4>
+          <button type="button" class="btn slide3-bottom-btn1 m-b-10 cabin-font ">Shop Men</button>
+          <button type="button" class="btn slide3-bottom-btn2 m-b-10 cabin-font ">Shop Women</button>
         </div>
         
         </div>
-        
+      <!-- <style type="text/css">
+        .slide3-bottom-btn
+        {
+          background: black;
+          padding: 9px 24px 10px 24px;
+          font-weight: 600;
+          line-height: 18px;
+          letter-spacing: 0.06em;
+          border: 0px;
+          font-size: 16px;
+        }
+      </style> -->
         
       </div>       
     </div>
   </div>
+  <!-- slider 3 close -->
+
+  <!-- slider 4 start -->
   <div class="section">
     <div class="slide4">
        <!--  <hr class="slide4-bottom"> -->
@@ -155,7 +178,7 @@
         
       </div>
     </div>
-
+    <!-- slider 4 close -->
     <div class="section slider5">
     <div class="container">
       <div class="slide5">

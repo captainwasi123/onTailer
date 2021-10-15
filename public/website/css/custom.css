@@ -252,7 +252,10 @@ section , header , footer {
     padding:0px !important;
 }
 
-
+.border-for-slide
+{
+    border: none !important;
+}
 
 
 .sidenav {
@@ -379,22 +382,26 @@ nav.navbar.navbar-inverse {
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.slide1 button {
-  /*  background: black;*/
-    border: none;
-    border-radius: 0px;
-}
-button.btn1 {
-    background: black;
+
+.slide1-btn1
+{
+  background: black;
     padding: 15px 47px 15px 47px;
     font-size: 18px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0.06em;
     text-align: center;
-    margin-right: -4px;
+    margin-right: -5px;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
 }
-button.btn2 {
+.slide1-btn1:hover
+{
+    color: white;
+}
+.slide1-btn2 {
     background: white;
     color: black;
     padding: 15px 65px 15px 65px;
@@ -403,7 +410,12 @@ button.btn2 {
     line-height: 18px;
     letter-spacing: 0.06em;
     text-align: center;
-
+    border: none;
+    border-radius: 0px;
+}
+.slide1-btn2:hover
+{
+    color: #000;
 }
   .section.slider2 {
     background: url(../images/home2.jpg);
@@ -411,48 +423,36 @@ button.btn2 {
     padding: 0px !important;
 }
 .slide2 {
-    width: 40%;
+    width: 41%;
     margin: 0 auto;
     text-align: center;
     padding-top: 270px;
 }
 .slide2 h2 {
-    font-family: Trochut;
-    font-style: normal;
     font-weight: bold;
     font-size: 53px;
     line-height: 58px;
-    text-align: center;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
 }
 .slide2 h3 {
-    font-family: Trochut;
-    font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 58px;
     text-align: center;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     background: black;
     color: white;
 }
 .slide2 h4 {
-    font-family: Trochut;
-    font-style: normal;
     font-weight: bold;
     font-size: 45px;
     line-height: 58px;
-    text-align: center;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
 }
-.slide2 button {
+/*.slide2 button {
     border: none;
     border-radius: 0px;
-    margin-top: 33px;
-}
+}*/
   .section.slider3 {
     background: url(../images/home3.png);
     background-size: cover;
@@ -475,62 +475,81 @@ button.btn2 {
     height: 0.5px;
 }
 .slide3-inner h2 {
-
-    font-family: News Cycle;
-font-style: normal;
-font-weight: bold;
-font-size: 21px;
-line-height: 35px;
-color: black;
-    padding-top: 19px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 35px;
+    color: black;
 }
 .slide3-inner h3 {
-
-font-family: Abril Fatface;
-font-style: normal;
-font-weight: normal;
-font-size: 50px;
-line-height: 67px;
-letter-spacing: 0.17em;
-
-color: #000000;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+    line-height: 67px;
+    letter-spacing: 0.17em;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
     left: -43px;
-
-margin:0px;
 }
 
 .slide3-inner h4 {
-    font-family: News Cycle;
-    font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 35px;
     color: #000000;
-    padding-bottom: 23px;
-    margin: 0 auto;
-
 }
 .slide3-bottom
 {
-font-family: News Cycle;
+/*font-family: News Cycle;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 35px;
-    color: #000000;
-    padding-bottom: 19px;
-    padding-top: 13px;
+    color: #000000;*/
+    padding-bottom: 20px;
+    padding-top: 15px;
 }
-.slide3-bottom button {
+.slide3-bottom .slide3-bottom-btn1{
     display: block;
     margin: 0 auto;
-    margin-bottom: 13px;
 }
-
-button.btn3 {
+.slide3-bottom .slide3-bottom-btn2{
+    display: block;
+    margin: 0 auto;
+}
+.slide3-bottom-btn1 {
+    display: block;
+    background: black;
+    padding: 9px 24px 10px 24px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    border: 0px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: white;
+}
+.slide3-bottom-btn1:hover {
+    color: white;
+}
+.slide3-bottom-btn2 {
+    display: block;
+    background:black;
+    padding: 9px 11px 10px 11px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    border: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    color: white;
+}
+.slide3-bottom-btn2:hover {
+    color: white;
+}
+/*button.btn3 {
   background: black;
     padding: 9px 24px 10px 24px;
 font-style: normal;
@@ -542,7 +561,7 @@ text-align: center;
     font-family: Cabin;
 font-size: 16px;
 text-transform: capitalize;
-}
+}*/
 button.btn4 {
   background: black;
     padding: 9px 11px 10px 11px;
@@ -635,7 +654,7 @@ hr.slide4-bottom {
     height: 0px;
     margin: 0px;
 }
-div#fullpage {
+section#fullpage {
     position: absolute !important;
     top: 0px;
     bottom: 0px;
@@ -1824,7 +1843,7 @@ margin:0px;
     padding: 0px 4px 0px 0px;
 }
 
-.men-shop-section1-btn button
+.men-shop-section1-btn
 {
 font-weight: bold;
 font-size: 18px;

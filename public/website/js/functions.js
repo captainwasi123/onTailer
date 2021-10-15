@@ -592,17 +592,39 @@ var myFullpage = new fullpage('#fullpage', {
   afterLoad: function(origin, destination, direction){
     console.log(origin.index+"-"+destination.index+"-"+direction);
     var loadedSection = this;
-
+    
     //using index
-    if(origin.index == 3){
-      
-    $(".white-add").addClass( "white-logo");
- 
+    if(origin.index == 1){
+      $(".navbar-inverse").addClass( "border-for-slide"); 
+    }
+    else
+    {
+      $(".navbar-inverse").removeClass( "border-for-slide");
+    }
+
+    if(origin.index == 2){
+      $(".navbar-inverse").addClass( "border-for-slide"); 
+    }
+    else
+    {
+      $(".navbar-inverse").removeClass( "border-for-slide");
+    }
+    
+    if(origin.index == 3)
+    {
+      $(".white-add").addClass( "white-logo");
+      $(".navbar-inverse").removeClass( "border-for-slide");
     }
     else
     {
        $(".white-add").removeClass( "white-logo" );
+       $(".navbar-inverse").removeClass( "bhai" );
     }
+
+    
+
+
+
   },
   afterRender: function(){},
   afterResize: function(width, height){},
