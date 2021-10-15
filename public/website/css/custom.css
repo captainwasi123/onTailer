@@ -252,11 +252,27 @@ section , header , footer {
     padding:0px !important;
 }
 
+.border-for-other-pages
+{
+    border-bottom: 1px solid #B1AFAF;
+}
 .border-for-slide
 {
     border: none !important;
 }
+.fp-viewing-fourth nav {
+    border-bottom: 1px solid #B1AFAF;
+}
+.fp-viewing-seven nav {
+    border-bottom: 1px solid #B1AFAF;
+}
+.fp-viewing-eight nav {
+    border-bottom: 1px solid #B1AFAF;
+}
 
+.fp-viewing-fifth .white-add img {
+    filter: invert(1);
+}
 
 .sidenav {
   height: 100%;
@@ -291,16 +307,6 @@ section , header , footer {
   font-size: 36px;
   margin-left: 50px;
 }
-/*.sidenav1 {
-    background: red;
-    height: 100VH;
-    position: relative;
-    width: 250px;
-}*/
-/*#sidenav1
-{
-  display: none;
-}*/
 #sidenav1 {
     
        position: absolute;
@@ -344,6 +350,10 @@ div#mySidenav1 a {
 }
 nav.navbar.navbar-inverse {
     z-index: 9;
+    /*border-bottom: 1px solid #B1AFAF;*/
+}
+.nav-border
+{
     border-bottom: 1px solid #B1AFAF;
 }
 .myslider.slick-initialized.slick-slider.slick-dotted.slick-vertical {
@@ -697,9 +707,9 @@ hr.slide5-line {
     height: 1px;
     margin: 15px 0px;
 }
-.white-logo img {
+/*.white-logo img {
     filter: invert(1);
-}
+}*/
 .numbers-list {
     border-radius: 37px;
     background: white;
@@ -1884,7 +1894,39 @@ border-radius: 0px;
     border-radius: 25px;
     font-size: 25px;
 }
+.add-to-cart-section1 h1
+{
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
 
+  /*for responsive*/
+
+    .custom-container1 {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    max-width: 93%;
+}
+
+.men-shop-fabric-1 h2 {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+}
+.men-shop-fabric-2 h2 {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    text-align: right;
+}
+.filter-section-1
+{
+    border-bottom: 1px solid #9D9999;
+    padding-bottom: 15px;
+}
 
 
 /*Media Queries Of Website*/

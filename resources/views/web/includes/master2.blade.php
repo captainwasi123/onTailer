@@ -10,7 +10,7 @@
 </head>
 <body>
 
-	@include('web.includes.header')
+	@include('web.includes.header2')
 	@yield('content')
 	@include('web.includes.footer')
 	@include('web.includes.script')
