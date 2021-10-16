@@ -37,28 +37,28 @@
               <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade active show" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                   <div class="row pad-top-90">
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
@@ -67,28 +67,28 @@
                     </div>                    
                   </div>
                   <div class="row pad-top-50">
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
@@ -99,28 +99,28 @@
                 </div>
                 <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
                   <div class="row pad-top-90">
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
@@ -129,28 +129,28 @@
                     </div>                    
                   </div>
                   <div class="row pad-top-90">
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
@@ -161,28 +161,28 @@
                 </div>
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                   <div class="row pad-top-90">
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
@@ -191,28 +191,28 @@
                     </div>                    
                   </div>
                   <div class="row pad-top-90">
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>
                         <h5 class="news-font no-margin">$1000/-</h5>                    
                       </div>
                     </div>
-                    <div class="col-md-3 pad-left-20 pad-right-20">
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-12 pad-left-20 pad-right-20">
                       <div class="men-shop-product">
                         <img src="{{URL::to('/public/website')}}/images/men-shop-1.jpg" width="100%">
                         <h4 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h4>

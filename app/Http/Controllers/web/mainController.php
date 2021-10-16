@@ -80,6 +80,15 @@ class mainController extends Controller
 
     	return view('web.men-shop-single');
     }
+    function addtocart(){
+
+    	return view('web.add-to-cart');
+    }
+    function menshopfabric(){
+
+    	return view('web.men-shop-fabric');
+    }
+    
     
     /*Nabeel*/
     function menshop2233(){

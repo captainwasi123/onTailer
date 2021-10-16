@@ -593,16 +593,6 @@ var myFullpage = new fullpage('#fullpage', {
     console.log(origin.index+"-"+destination.index+"-"+direction);
     var loadedSection = this;
 
-    //using index
-    if(origin.index == 3){
-      
-    $(".white-add").addClass( "white-logo");
- 
-    }
-    else
-    {
-       $(".white-add").removeClass( "white-logo" );
-    }
   },
   afterRender: function(){},
   afterResize: function(width, height){},

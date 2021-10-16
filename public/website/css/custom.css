@@ -169,6 +169,10 @@ section , header , footer {
 {
     padding-left: 80px !important
 }
+.pad-left-90
+{
+    padding-left: 90px !important
+}
 .pad-right-10
 {
     padding-right: 10px !important
@@ -244,6 +248,13 @@ section , header , footer {
 }
 
 
+.m-l-60 {
+    margin-left: 60px !important;
+}
+.m-l-80 {
+    margin-left: 80px !important;
+}
+
 
 .no-margin {
     margin:0px !important;
@@ -252,8 +263,27 @@ section , header , footer {
     padding:0px !important;
 }
 
+.border-for-other-pages
+{
+    border-bottom: 1px solid #B1AFAF;
+}
+.border-for-slide
+{
+    border: none !important;
+}
+.fp-viewing-fourth nav {
+    border-bottom: 1px solid #B1AFAF;
+}
+.fp-viewing-seven nav {
+    border-bottom: 1px solid #B1AFAF;
+}
+.fp-viewing-eight nav {
+    border-bottom: 1px solid #B1AFAF;
+}
 
-
+.fp-viewing-fifth .white-add img {
+    filter: invert(1);
+}
 
 .sidenav {
   height: 100%;
@@ -288,17 +318,7 @@ section , header , footer {
   font-size: 36px;
   margin-left: 50px;
 }
-/*.sidenav1 {
-    background: red;
-    height: 100VH;
-    position: relative;
-    width: 250px;
-}*/
-/*#sidenav1
-{
-  display: none;
-}*/
-#sidenav1 {
+/*#sidenav1 {
     
        position: absolute;
     background-color: #111;
@@ -307,16 +327,16 @@ section , header , footer {
     left: 250px;
     width: 250px;
     top: 0px;
-}
+}*/
 
-div#sidenav1 a {
+/*div#sidenav1 a {
     display: block;
-}
+}*/
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-div#mySidenav1 {
+/*div#mySidenav1 {
     height: 100%;
     width: 250px;
     position: absolute;
@@ -330,17 +350,25 @@ div#mySidenav1 {
 
 div#mySidenav1 a {
     display: block;
-  }
-#mySidenav1{display:none;}
-#mySidenav2{display:none;}
+  }*/
+/*  div#mySidenav2 a {
+    display: block;
+  }*/
+/*#mySidenav1{display:none;}
+#mySidenav2{display:none;}*/
+/*#mySidenav1{display:none;}
 
-
+*/
 
 .nav.navbar-nav.navbar-right {
     display: block;
 }
 nav.navbar.navbar-inverse {
     z-index: 9;
+    /*border-bottom: 1px solid #B1AFAF;*/
+}
+.nav-border
+{
     border-bottom: 1px solid #B1AFAF;
 }
 .myslider.slick-initialized.slick-slider.slick-dotted.slick-vertical {
@@ -379,22 +407,26 @@ nav.navbar.navbar-inverse {
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.slide1 button {
-  /*  background: black;*/
-    border: none;
-    border-radius: 0px;
-}
-button.btn1 {
-    background: black;
+
+.slide1-btn1
+{
+  background: black;
     padding: 15px 47px 15px 47px;
     font-size: 18px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0.06em;
     text-align: center;
-    margin-right: -4px;
+    margin-right: -5px;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
 }
-button.btn2 {
+.slide1-btn1:hover
+{
+    color: white;
+}
+.slide1-btn2 {
     background: white;
     color: black;
     padding: 15px 65px 15px 65px;
@@ -403,7 +435,12 @@ button.btn2 {
     line-height: 18px;
     letter-spacing: 0.06em;
     text-align: center;
-
+    border: none;
+    border-radius: 0px;
+}
+.slide1-btn2:hover
+{
+    color: #000;
 }
   .section.slider2 {
     background: url(../images/home2.jpg);
@@ -411,48 +448,36 @@ button.btn2 {
     padding: 0px !important;
 }
 .slide2 {
-    width: 40%;
+    width: 41%;
     margin: 0 auto;
     text-align: center;
     padding-top: 270px;
 }
 .slide2 h2 {
-    font-family: Trochut;
-    font-style: normal;
     font-weight: bold;
     font-size: 53px;
     line-height: 58px;
-    text-align: center;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
 }
 .slide2 h3 {
-    font-family: Trochut;
-    font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 58px;
     text-align: center;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     background: black;
     color: white;
 }
 .slide2 h4 {
-    font-family: Trochut;
-    font-style: normal;
     font-weight: bold;
     font-size: 45px;
     line-height: 58px;
-    text-align: center;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
 }
-.slide2 button {
+/*.slide2 button {
     border: none;
     border-radius: 0px;
-    margin-top: 33px;
-}
+}*/
   .section.slider3 {
     background: url(../images/home3.png);
     background-size: cover;
@@ -475,62 +500,81 @@ button.btn2 {
     height: 0.5px;
 }
 .slide3-inner h2 {
-
-    font-family: News Cycle;
-font-style: normal;
-font-weight: bold;
-font-size: 21px;
-line-height: 35px;
-color: black;
-    padding-top: 19px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 35px;
+    color: black;
 }
 .slide3-inner h3 {
-
-font-family: Abril Fatface;
-font-style: normal;
-font-weight: normal;
-font-size: 50px;
-line-height: 67px;
-letter-spacing: 0.17em;
-
-color: #000000;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+    line-height: 67px;
+    letter-spacing: 0.17em;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
     left: -43px;
-
-margin:0px;
 }
 
 .slide3-inner h4 {
-    font-family: News Cycle;
-    font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 35px;
     color: #000000;
-    padding-bottom: 23px;
-    margin: 0 auto;
-
 }
 .slide3-bottom
 {
-font-family: News Cycle;
+/*font-family: News Cycle;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 35px;
-    color: #000000;
-    padding-bottom: 19px;
-    padding-top: 13px;
+    color: #000000;*/
+    padding-bottom: 20px;
+    padding-top: 15px;
 }
-.slide3-bottom button {
+.slide3-bottom .slide3-bottom-btn1{
     display: block;
     margin: 0 auto;
-    margin-bottom: 13px;
 }
-
-button.btn3 {
+.slide3-bottom .slide3-bottom-btn2{
+    display: block;
+    margin: 0 auto;
+}
+.slide3-bottom-btn1 {
+    display: block;
+    background: black;
+    padding: 9px 24px 10px 24px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    border: 0px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: white;
+}
+.slide3-bottom-btn1:hover {
+    color: white;
+}
+.slide3-bottom-btn2 {
+    display: block;
+    background:black;
+    padding: 9px 11px 10px 11px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    border: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    color: white;
+}
+.slide3-bottom-btn2:hover {
+    color: white;
+}
+/*button.btn3 {
   background: black;
     padding: 9px 24px 10px 24px;
 font-style: normal;
@@ -542,7 +586,7 @@ text-align: center;
     font-family: Cabin;
 font-size: 16px;
 text-transform: capitalize;
-}
+}*/
 button.btn4 {
   background: black;
     padding: 9px 11px 10px 11px;
@@ -635,7 +679,7 @@ hr.slide4-bottom {
     height: 0px;
     margin: 0px;
 }
-div#fullpage {
+section#fullpage {
     position: absolute !important;
     top: 0px;
     bottom: 0px;
@@ -678,9 +722,9 @@ hr.slide5-line {
     height: 1px;
     margin: 15px 0px;
 }
-.white-logo img {
+/*.white-logo img {
     filter: invert(1);
-}
+}*/
 .numbers-list {
     border-radius: 37px;
     background: white;
@@ -1824,7 +1868,7 @@ margin:0px;
     padding: 0px 4px 0px 0px;
 }
 
-.men-shop-section1-btn button
+.men-shop-section1-btn
 {
 font-weight: bold;
 font-size: 18px;
@@ -1865,9 +1909,63 @@ border-radius: 0px;
     border-radius: 25px;
     font-size: 25px;
 }
+.add-to-cart-section1 h1
+{
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
 
+  /*for responsive*/
 
+    .custom-container1 {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    max-width: 93%;
+}
 
+.men-shop-fabric-1 h2 {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+}
+.men-shop-fabric-2 h2 {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    text-align: right;
+}
+.filter-section-1
+{
+    border-bottom: 1px solid #9D9999;
+    margin-top: 15px !important; 
+}
+
+.men-shop-fabric-btn {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #FEFEFE;
+    background: black;
+    border-radius: 0px;
+    padding: 10px 40px;
+}
+.xzoom-description h3 {
+    font-weight: bold;
+    font-size: 14.5px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: black;
+}
+.xzoom-description h4 {
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: black;
+}
 /*Media Queries Of Website*/
 
 /*Small Laptops*/
