@@ -81,5 +81,11 @@ class mainController extends Controller
     	return view('web.men-shop-single');
     }
     
+    /*Nabeel*/
+    function menshop2233(){
+
+        return view('web.men-shop-single');
+    }
+    
 }
 

@@ -35,4 +35,6 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/other-contact-us', 'mainController@othercontactus')->name('othercontactus');
 		Route::get('/men-shop', 'mainController@menshop')->name('menshop');
 		Route::get('/men-shop-single', 'mainController@menshopsingle')->name('menshopsingle');
+		/*Nabeel*/
+		Route::get('/men-shop-2233', 'mainController@menshop2233')->name('menshop2233');
 	});

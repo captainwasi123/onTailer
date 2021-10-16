@@ -11,8 +11,8 @@
       <div class="navbar-header">
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn white-add" onclick="closeNav()"><img src="{{URL::to('/public/website')}}/images/humberger.png" /></a>
-          <a class="mySidenav11" href="#">About</a>
-          <a class="mySidenav12" href="#">Services</a>
+          <a class="mySidenav11" href="#"> About </a>
+          <a class="mySidenav12" href="#"> Services </a>
           <a href="#">Clients</a>
           <a href="#">Contact</a>
         </div>
