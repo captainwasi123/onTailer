@@ -1,11 +1,5 @@
 <!-- header section start --> 
  <header>
-   <div id="mySidenav1" class="mySidenav1">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
-  </div>
   <nav class="navbar navbar-inverse pad-top-40 pad-bot-30 border-for-other-pages">
     <div class="container-fluid">
       <div class="navbar-header">
