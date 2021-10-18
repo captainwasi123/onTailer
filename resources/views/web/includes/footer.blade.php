@@ -23,17 +23,3 @@
   </div>
 </footer>
 <!-- footer section close -->
-
-<style type="text/css">
-  .section-footer-inner a {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    padding: 0px 20px;
-    text-decoration: none;
-    color: white;
-}
-</style>
