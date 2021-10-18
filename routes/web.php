@@ -37,4 +37,7 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/men-shop-single', 'mainController@menshopsingle')->name('menshopsingle');
 		Route::get('/add-to-cart', 'mainController@addtocart')->name('addtocart');
 		Route::get('/men-shop-fabric', 'mainController@menshopfabric')->name('menshopfabric');
+		Route::get('/men-shop-customize', 'mainController@menshopcustomize')->name('menshopcustomize');
+		Route::get('/personal-information', 'mainController@personalinformation')->name('personalinformation');
+
 	});

@@ -373,10 +373,6 @@
 });
 
 
-
-
-
-
  $(document).ready(function(){
 
 
