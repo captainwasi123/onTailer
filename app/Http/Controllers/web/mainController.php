@@ -85,6 +85,14 @@ class mainController extends Controller
 
     	return view('web.men-shop-fabric');
     }
+    function menshopcustomize(){
+
+    	return view('web.men-shop-customize');
+    }
+    function personalinformation(){
+
+    	return view('web.personal-information');
+    }
     
     
     /*Nabeel*/
