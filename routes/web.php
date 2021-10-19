@@ -35,10 +35,13 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/other-contact-us', 'mainController@othercontactus')->name('othercontactus');
 		Route::get('/men-shop', 'mainController@menshop')->name('menshop');
 		Route::get('/men-shop-single', 'mainController@menshopsingle')->name('menshopsingle');
+		Route::get('/men-shop-fabric', 'mainController@menshopfabric')->name('menshopfabric');
  
 		/*Nabeel*/
-		Route::get('/men-shop-2233', 'mainController@menshop2233')->name('menshop2233');
+		Route::get('/measurement-for-men', 'mainController@measurementformen')->name('measurementformen');
+		Route::get('/ai-algorithm', 'mainController@aialgorithm')->name('aialgorithm');
+		Route::get('/ai-algorithm-calculate', 'mainController@aialgorithmcalculate')->name('aialgorithmcalculate');
 		Route::get('/add-to-cart', 'mainController@addtocart')->name('addtocart');
-		Route::get('/men-shop-fabric', 'mainController@menshopfabric')->name('menshopfabric');
+		
  
 	});

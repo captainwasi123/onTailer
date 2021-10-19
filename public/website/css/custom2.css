@@ -1,0 +1,464 @@
+a {
+	text-decoration: none !important;
+	display:inline-block;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+
+section.custom-sec1 {
+    min-height: 100vh;
+    background-image: url(../images/bg-sec1.jpg);
+    background-size: cover;
+    background-position: top left;
+    padding: 250px 0px 100px 0px;
+}
+.sec-head1 {
+    margin-bottom: 120px;
+}
+
+
+.sec-head1 h3 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 47px;
+}
+
+.measure-box5 a {
+    border: 2px solid white;
+    padding: 60px 0px;
+    max-width: 250px;
+    margin: auto;
+    height: 330px;
+    display: block;
+}
+.measure-box5 a:hover {
+	transform: scale(1.04);
+	-webkit-transform: scale(1.04);
+}
+
+.measure-box5 img {
+    height: 140px;
+    margin-bottom: 15px;
+}
+.measure-box5 h5 {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+/*Add to Cart Page CSS Starts Here*/
+
+
+.sec-head2 h3 {
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+}
+
+
+.block-element {
+    float: left;
+    width: 100%;
+}
+
+
+.cart-single-product {
+    float: left;
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    padding: 40px 20px 15px 30px;
+}
+
+
+.cart-single-image {
+    float: left;
+    width: 20%;
+}
+
+.cart-single-text {
+    float: left;
+    width: 80%;
+    padding: 0px 20px;
+}
+
+.cart-product-title {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+
+.cart-single-name {
+    float: left;
+    width: 70%;
+}
+
+.cart-single-date {
+    float: right;
+}
+
+.cart-single-name h4 {
+    color: black;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+}
+
+.cart-single-name h6 {
+    color: #797878;
+    font-size: 18px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.cart-single-name h5 {
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+
+.cart-btn1 {
+    font-size: 14px;
+    color: #044372;
+    font-weight: bold;
+    padding: 2px 14px 2px 0px;
+    border-right: 1px solid #928B8B;
+    margin-right: 14px;
+    letter-spacing: 0.8px;
+}
+.cart-btn1:nth-last-child(1) {
+    border:none;
+}
+
+.cart-single-date p {
+    margin: 0px !important;
+    color: black;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+}
+
+.increment-container {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.increment-container button {
+    display: inline-block;
+    border: 1px solid black;
+    background: none;
+    font-size: 18px;
+    width: 20px;
+    text-align: center;
+    padding: 0px;
+    height: 22px;
+    line-height: 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin: 0px 8px;
+    outline: none !important;
+}
+
+.increment-container input {
+    display: inline-block;
+    text-align: center;
+    width: 45px;
+    background: none;
+    border: 1px solid black;
+    height: 28px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.price-details-box {
+    float: left;
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    max-width: 350px;
+}
+
+
+.price-details-head {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 12px 15px;
+}
+
+
+.price-details-content {
+    float: left;
+    width: 100%;
+    padding: 25px 15px 7px 15px;
+}
+
+.price-details-head h3 {
+    margin: 0px !important;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+table.table-2 {
+    width: 100%;
+}
+
+table.table-2 tbody tr td {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding: 8px 0px;
+}
+.table-2 tfoot tr {
+    border: 1px dashed #C4C4C4;
+    border-left: none;
+    border-right: none;
+}
+
+.table-2 tfoot tr th {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+table.table-2 tr:nth-child(2) td {
+    padding-bottom: 30px;
+}
+
+.custom-btn5 {
+    display: block;
+    background: black;
+    color: white;
+    border: none;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 8px 0px;
+    border: none !important;
+}
+
+.custom-image1 {
+    width: 100%;
+    margin: auto;
+    display: block;
+    max-width: 200px;
+}
+.custom-btn5:hover {
+    background:#044372;
+    color:white !important;
+}
+.custom-sec2 {
+    min-height: 90vh;
+}
+
+/*Add to Cart Page CSS Starts Here*/
+   
+
+
+
+
+
+
+/*Media Queries Of Website*/
+
+/*Small Laptops*/
+@media screen and (max-width:992px) and (min-width:768px) { 
+.measure-box5 img {
+    height: 120px;
+    margin-bottom: 15px;
+}
+.measure-box5 a {
+    border: 2px solid white;
+    padding: 40px 0px;
+    max-width: 250px;
+    margin: auto;
+    height: 300px;
+    display: block;
+}
+.measure-box5 h5 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.price-details-box {
+    float: left;
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    margin-top: 30px;
+}
+}
+
+
+/*Tablet Devices*/
+@media screen and (max-width:767px) and (min-width:520px) { 
+section.custom-sec1 {
+    padding: 200px 0px 30px 0px;
+    background-position: top center;
+}
+.sec-head1 {
+    margin-bottom: 70px;
+}
+.sec-head1 h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+ .measure-box5 a {
+    margin-bottom: 30px;
+}
+.cart-single-product {
+    float: left;
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    padding: 25px 20px 15px 32px;
+}
+.cart-single-image {
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px !important;
+}
+.custom-image1 {
+    width: 100%;
+    margin: 0px;
+    display: block;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+.cart-single-image .increment-container {
+    text-align: left;
+}
+.cart-single-text {
+    float: left;
+    width: 100%;
+    padding: 0px;
+}
+.cart-single-name {
+    float: left;
+    width: 100%;
+}
+.cart-single-name h4 {
+    color: black;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+}
+.cart-single-name h5 {
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.cart-single-date {
+    float: left;
+    width: 100%;
+}
+.price-details-box {
+    float: left;
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    margin-top: 40px;
+    max-width: 350px;
+}
+.sec-head2 h3 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+     
+}
+
+
+
+
+/*Mobile Devices*/
+@media screen and (max-width:519px) and (min-width:320px) { 
+   
+section.custom-sec1 {
+    padding: 200px 0px 30px 0px;
+    background-position: top right;
+}
+.sec-head1 {
+    margin-bottom: 70px;
+}
+.sec-head1 h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+ .measure-box5 a {
+    margin-bottom: 30px;
+}
+.sec-head2 h3 {
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.cart-single-product {
+    float: left;
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    padding: 25px 20px 15px 32px;
+}
+.cart-single-image {
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px !important;
+}
+.custom-image1 {
+    width: 100%;
+    margin: 0px;
+    display: block;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+.cart-single-image .increment-container {
+    text-align: left;
+}
+.cart-single-text {
+    float: left;
+    width: 100%;
+    padding: 0px;
+}
+.cart-single-name {
+    float: left;
+    width: 100%;
+}
+.cart-single-name h4 {
+    color: black;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+}
+.cart-single-name h5 {
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.cart-single-date {
+    float: left;
+    width: 100%;
+}
+.price-details-box {
+    float: left;
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    margin-top: 40px;
+    max-width: 350px;
+}
+.custom-sec2 {
+    min-height: 0px;
+}
+}

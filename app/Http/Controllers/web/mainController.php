@@ -80,10 +80,7 @@ class mainController extends Controller
 
     	return view('web.men-shop-single');
     }
-    function addtocart(){
-
-    	return view('web.add-to-cart');
-    }
+    
     function menshopfabric(){
 
     	return view('web.men-shop-fabric');
@@ -91,9 +88,20 @@ class mainController extends Controller
     
     
     /*Nabeel*/
-    function menshop2233(){
+    function addtocart(){
 
-        return view('web.men-shop-single');
+        return view('web.add-to-cart');
+    }
+
+    function measurementformen(){
+        return view('web.measurement-for-men');
+    }
+
+    function aialgorithm(){
+        return view('web.ai-algorithm');
+    }
+    function aialgorithmcalculate(){
+        return view('web.ai-algorithm-calculate');
     }
     
 }
