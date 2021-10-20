@@ -92,3 +92,8 @@ slick_2.on("wheel", function(e) {
  function togglesidebar(){
   document.getElementById("sidebar").classList.toggle("active");
 } 
+
+ function togglesidebar(){
+  document.getElementById("sidebar").classList.toggle("active");
+} 
+ 

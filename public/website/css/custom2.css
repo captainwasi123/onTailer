@@ -423,6 +423,99 @@ span.info-tag1 {
     border: 2px solid black;
     color: black;
 }
+.submit-btn6:hover {
+    background:#044372;
+    border:2px solid #044372;
+}
+
+.submit-btn7:hover {
+    background:black;
+    color:white;
+}
+
+.edit-btn1:hover {
+    color:black;
+}
+
+
+.custom-border1 {
+    border-right: 1px solid #C4C4C4;
+}
+
+.custom-border2 {
+    border-left: 1px solid #C4C4C4;
+}
+
+
+
+.fitting-selection h4 {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px !important;
+    line-height: 30px;
+}
+.fitting-selection div label {
+    margin: 0px;
+    color: #979595;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0px 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer !important;
+    margin-bottom: 8px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.fitting-selection div label input {
+    display: none;
+}
+
+
+span.custom-line1 {
+    display: inline-block;
+    background: #C4C4C4;
+    font-size: 0px;
+    width: 8px;
+    height: 1px;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-left: 7px;
+}
+
+
+
+span.custom-line2 {
+    display: inline-block;
+    background: #C4C4C4;
+    font-size: 0px;
+    width: 8px;
+    height: 1px;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 7px;
+}
+
+
+.field-wrapper2 {
+    float: right;
+    width: 100%;
+}
+
+
+
+.field-wrapper3 {
+    float: left;
+    width: 100%;
+}
+
+.size-selected1 {
+    color: #044372 !important;
+    font-weight: 700;
+    letter-spacing: 0.5px !important;
+}
+
+
 
 /*AI Algorithm CSS Ends Here*/   
 
@@ -562,6 +655,13 @@ section.custom-sec1 {
     width: 100px;
     height: 38px;
 }
+.form-field5 h6 {
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px !important;
+    font-size: 18px;
+    line-height: 25px;
+}
 }
 
 
@@ -672,13 +772,59 @@ section.custom-sec1 {
     width: 100%;
     margin-top: 0px;
 }
-.submit-btn6 , .submit-btn7 {
+.submit-btn6, .submit-btn7 {
     margin: 0px 5px;
-    padding: 6px 35px;
+    padding: 4px 35px;
     letter-spacing: 1px;
+    font-size: 18px !important;
 }
 .button-wrapper1 {
     margin-top: 20px;
 }
-
+.form-field5 h6 {
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px !important;
+    font-size: 18px;
+    line-height: 25px;
+}
+.field-wrapper2 {
+    float: left;
+    width: 100%;
+}
+.fitting-selection {
+    float: left;
+    width: 100%;
+    text-align: left !important;
+}
+.custom-border1 {
+    border: none !important;
+}
+.custom-border2 {
+    border: none !important;
+}
+.fitting-selection h4 {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px !important;
+    line-height: 30px;
+    position: relative;
+    padding-left: 18px;
+}
+span.custom-line2, span.custom-line1 {
+    position: absolute;
+    left: 0px;
+    top: 18px;
+}
+div.field-wrapper3 {
+    float: left;
+    width: 100%;
+    border-left: 1px solid #C4C4C4 !important;
+}
+div.field-wrapper2 {
+    float: left;
+    width: 100%;
+    border-left: 1px solid #C4C4C4 !important;
+}
 }

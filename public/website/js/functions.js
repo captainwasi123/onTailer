@@ -632,3 +632,16 @@ function valueChange() {
     $(this).val(100);
   }
 }
+
+
+$(document).ready(function(){
+
+$('.size-select1').children("label").click(function(){
+$(this).parents(".fitting-selection").find("input").removeAttr("checked")
+$(this).children("input").attr("checked","checked")
+$(this).parents(".fitting-selection").find("label").removeClass("size-selected1")
+$(this).addClass("size-selected1")
+})
+
+
+})
