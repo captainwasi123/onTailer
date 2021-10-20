@@ -90,10 +90,8 @@ slick_2.on("wheel", function(e) {
 });
 
 
-<<<<<<< HEAD
-
-=======
+ 
  function togglesidebar(){
   document.getElementById("sidebar").classList.toggle("active");
 } 
->>>>>>> aead98f58561fafb0b5cd85519fa5d5826ae01fc
+ 
