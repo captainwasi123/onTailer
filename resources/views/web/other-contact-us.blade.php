@@ -3,7 +3,8 @@
 @section('content')
 
 <!-- section1 start -->
-<section class="container-fluid pad-left-80 pad-right-80 pad-top-100 pad-bot-200">
+<section>
+  <div class="container-fluid custom-gird-website pad-top-100 pad-bot-200">
     <div class="row">
       <div class="col-md-7 col-md-7 col-12 col-sm-12">
         <div class="contact-section1">
@@ -29,22 +30,25 @@
 	            </form>        
         </div>
       </div>
-    </div>  
+    </div> 
+  </div> 
 </section>
 <!-- section1 close -->
 
 <!-- section2 start -->
-  <section class="container-fluid pad-left-80 pad-right-80 contact-bottom-sec">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-12 col-sm-12">
-        <div class="contact-section2">
-          <h2 class="no-margin pad-top-30 abril-font">CONTACT US VIA CALL</h2>
-          <div class="row pad-top-20">
-            <div class="col-lg-1 col-md-1 col-1 col-sm-1" style="padding-left: 22px;">
-              <img src="{{URL::to('/public/website')}}/images/call.png">
-            </div>
-            <div class="col-lg-10 col-md-10 col-10 col-sm-10 no-pad">
-              <p class="no-margin pad-bot-30 news-font">9009993919</p>
+  <section>
+    <div class="container-fluid custom-gird-website contact-bottom-sec">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-12 col-sm-12">
+          <div class="contact-section2">
+            <h2 class="no-margin pad-top-30 abril-font">CONTACT US VIA CALL</h2>
+            <div class="row pad-top-20">
+              <div class="col-lg-1 col-md-1 col-2 col-sm-1" style="padding-left: 22px;">
+                <img src="{{URL::to('/public/website')}}/images/call.png">
+              </div>
+              <div class="col-lg-10 col-md-10 col-10 col-sm-10 no-pad">
+                <p class="no-margin pad-bot-30 news-font">9009993919</p>
+              </div>
             </div>
           </div>
         </div>

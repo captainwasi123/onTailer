@@ -89,11 +89,6 @@ slick_2.on("wheel", function(e) {
   slick_handle_wheel_event_debounced(e.originalEvent, slick_2, slick_2_is_animating);  
 });
 
-
-<<<<<<< HEAD
-
-=======
  function togglesidebar(){
   document.getElementById("sidebar").classList.toggle("active");
 } 
->>>>>>> aead98f58561fafb0b5cd85519fa5d5826ae01fc

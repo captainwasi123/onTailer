@@ -276,7 +276,12 @@ section , header , footer {
 .no-pad {
     padding:0px !important;
 }
-
+.custom-gird-website {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    max-width: 92%;
+}
 .border-for-other-pages
 {
     border-bottom: 1px solid #B1AFAF;
@@ -550,10 +555,12 @@ nav.navbar.navbar-inverse {
     padding: 0px !important;
 }
 .slide2 {
-    width: 41%;
-    margin: 0 auto;
-    text-align: center;
     padding-top: 270px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    max-width: 39%;
 }
 .slide2 h2 {
     font-weight: bold;
@@ -588,11 +595,13 @@ nav.navbar.navbar-inverse {
 .slide3 {
     text-align: center;
     padding-top: 25%;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    max-width: 27%;
 }
 .slide3-inner {
     background: url(../images/box.png);
-    width: 305px;
-    margin: 0 auto;
     background-size: 100% 100%;
 }
 .slide3-inner hr {
@@ -711,16 +720,12 @@ text-transform: capitalize;
 .slide4
 {
   text-align: center;
-  padding-top: 120px;
+  padding-top: 220px;
 }
 .slide4-sec1 h2 {
-    font-family: Abril Fatface;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 27px;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
     color: #000000;
 }
 hr.slide4-bor {
@@ -740,38 +745,37 @@ hr.slide4-bor {
 {
   padding-top: 40px;
 }
-.slide4-main
+/*.slide4-main
 {
   padding-top: 45px;
   padding-bottom: 35px;
+}*/
+.slide4-1
+{
+    width: 100%;
+    max-width: 71%;
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
 .seller-box2 h5 {
     text-align: left;
-    font-family: News Cycle;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14.5px;
     line-height: 20px;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #000000;
+    font-weight: 400;
 }
 .seller-box2.slick-slide.slick-active img {
   width: 85%;
 }
 .slide4-sec-2 h3
 {
-font-family: Trochut;
-font-style: normal;
-font-weight: bold;
-font-size: 23px;
-line-height: 27px;
-/* identical to box height */
-
-letter-spacing: 0.02em;
-text-transform: uppercase;
-
-color: #000000;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #000000;
 }
 .slide4-sec-2 {
     padding-top: 90px;
@@ -788,9 +792,14 @@ section#fullpage {
 }
 .slide1 {
     padding-top: 270px;
-    width: 50%;
+    /*width: 50%;
     margin: 0 auto;
+    text-align: center;*/
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    max-width: 50%;
 }
 .brand {
     position: relative;
@@ -802,19 +811,16 @@ section#fullpage {
     background-size: cover;
     padding: 0px !important;
 }
-.slide5-inner {
+.slide5{
     color: white;
     padding-top: 20%;
     width: 380px;
 }
-.slide5-inner h2 {
-    font-family: Trochut;
-    font-style: normal;
+.slide5 h2 {
     font-weight: bold;
     font-size: 40px;
     line-height: 20px;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
     color: #FFFFFF;
 }
 hr.slide5-line {
@@ -833,28 +839,19 @@ hr.slide5-line {
     padding: 0px 8px 0px 13px;
     color: black;
     font-size: 21px;
-    font-family: News Cycle;
-    font-style: normal;
-    font-weight: bold;
+   /* font-weight: bold;*/
 }
-.slide5-inner h3 {
-    font-family: News Cycle;
-    font-style: normal;
+.slide5 h3 {
     font-weight: bold;
     font-size: 21px;
     line-height: 20px;
     letter-spacing: 0.02em;
     padding-top: 45px;
 }
-.slide5-inner p {
-    font-family: News Cycle;
-    font-style: normal;
-    font-weight: normal;
+.slide5 p {
     font-size: 15px;
     line-height: 23px;
     letter-spacing: 0.05em;
-    padding-top: 5px;
-
 }
 
   .section.slider6 {
@@ -864,78 +861,89 @@ hr.slide5-line {
 }
 
 .slide6 {
-    width: 55%;
-    margin: 0 auto;
-    text-align: center;
     padding-top: 25%;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    max-width: 55%;
+    text-align: center;
 }
-.slide6-inner h2 {
-    font-family: Trochut;
-    font-style: normal;
+.slide6 h2 {
     font-weight: bold;
     font-size: 40px;
     line-height: 63px;
-    text-align: center;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
     color: #000000;
     text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
-.slide6-inner p {
-    font-family: News Cycle;
-    font-style: normal;
-    font-weight: normal;
+.slide6 p {
     font-size: 20px;
     line-height: 25px;
-    text-align: center;
     color: #000000;
 }
 .btn5 {
-    font-family: News Cycle;
-    font-style: normal;
     font-weight: bold;
     font-size: 14.5px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     color: #000000;
     padding: 10px 36px;
     background: transparent;
     border: 2px solid #000000;
     border-radius: 0px;
     margin-top: 22px;
-
 }
-.slide6-inner h4 {
-    font-family: Trochut;
-    font-style: normal;
+.btn5:hover {
+    background:black;
+    color: white;
+    border: 2px solid #000000;
+}
+.slide6 h4 {
     font-weight: bold;
     font-size: 30px;
     line-height: 121.6%;
     text-align: center;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     color: #000000;
     text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    margin-top: 40px;
+    width: 100%;
+    max-width: 50%;
+    float: none;
+    margin: 40px auto 0px auto;
 }
 .btn6 {
-    font-family: News Cycle;
-    font-style: normal;
     font-weight: bold;
     font-size: 14.5px;
     line-height: 24px;
-    text-align: center;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     color: #000000;
     padding: 10px 58px;
     background: transparent;
     border: 2px solid #000000;
     border-radius: 0px;
     margin-top: 22px;
+}
+.btn6:hover {
+    background:black;
+    color: white;
+    border: 2px solid #000000;
+}
 
+.slide7-1
+{
+        width: 100%;
+    max-width: 60%;
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+.slide7-2 {
+    width: 100%;
+    max-width: 45%;
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 hr.slide5-bor {
     background: black;
@@ -962,62 +970,55 @@ hr.slide5-bor {
 
 }
 .seller-box-hover h2 {
-font-family: News Cycle;
-font-style: normal;
-font-weight: bold;
-font-size: 14.5px;
-line-height: 24px;
-/* identical to box height */
-
-letter-spacing: 0.02em;
-text-transform: uppercase;
-
-color: #FFFFFF;
-position: relative;
-top: 50%;
+    font-weight: bold;
+    font-size: 14.5px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    position: relative;
+    top: 50%;
+}
+.slide8 {
+    text-align: center;
+    padding-top: 270px;
 }
 .slide8-sec1 h2 {
-    font-family: Abril Fatface;
-    font-style: normal;
-    font-weight: normal;
     font-size: 35px;
     line-height: 47px;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
     color: #000000;
 }
-.slide8-sec1 input {
-    width: 38%;
+.news-input
+{
+    max-width: 36%;
+    width: 100%;
     border-bottom: 1px solid #928B8B;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    margin-top: 90px;
     font-family: News Cycle;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14.5px;
     line-height: 24px;
+    outline: none !important;
 }
-.slide8-sec1-bottom span {
-    border-right: 1px solid #928B8B;
-    font-family: News Cycle;
-    font-style: normal;
+.slide8-sec1-bottom a {
+
+        font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 25px;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #000000;
     padding: 0px 20px;
+    text-decoration: none;
+    color: black;
 }
 .slide8-sec1-bottom {
     padding-top: 150px;
 }
-.slide8-sec1 {
+/*.slide8-sec1 {
     padding-top: 60px;
-}
+}*/
 .slide5-sec1 h2
 {
   font-family: Abril Fatface;
@@ -1065,30 +1066,32 @@ letter-spacing: 0.02em;
 }
 .about-section2 {
     color: black;
+    padding-right: 60px;
+    padding-top: 50px;
+}
+.about-section4 {
+    padding-right: 60px;
 }
 .about-section5 h2 {
-    font-family: Abril Fatface;
-    font-style: normal;
-    font-weight: normal;
     font-size: 30px;
-    line-height: 25px;
+    line-height: 30px;
     letter-spacing: 0.02em;
     color: #000000;
 }
 .about-section5 p {
-font-family: News Cycle;
-font-style: normal;
-font-weight: normal;
 font-size: 16px;
 line-height: 25px;
 letter-spacing: 0.02em;
 color: #000000;
 }
 .about-section5 {
-    padding: 30px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+}
+.shopping-section1 {
+    color: black;
 }
 .section-footer-inner {
-    float: right;
+    text-align: right;
     color: white;
 }
 .section-footer-inner span {
@@ -1116,14 +1119,14 @@ color: white;
     background: black;
     padding: 25px 0px;
 }
-.shipping-page
+/*.shipping-page
 {
     padding: 55px 80px 0px 80px;
-}
-.alterpage
+}*/
+/*.alterpage
 {
     padding: 60px 80px 0px 80px;
-}
+}*/
 
 .alterpage-section2 {
     font-size: 16px;
@@ -1715,6 +1718,7 @@ letter-spacing: 0.02em;
 text-transform: uppercase;
 color: #979595;
 text-decoration: none;
+width: 100%;
 }
 .accordion-section .panel-default .panel-title a:after {
         font-family: 'FontAwesome';
@@ -1722,7 +1726,7 @@ text-decoration: none;
     font-size: 20px;
     content: "\f106";
     float: right;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
 }
 .accordion-section .panel-default .panel-title a.collapsed:after {
     content: "\f107";
@@ -2384,8 +2388,6 @@ label.custom-control-label.pink::before {
     padding-left: 30px;
 }
 .personal-info-label {
-    font-style: normal;
-    font-weight: normal;
     font-size: 25px;
     line-height: 34px;
     letter-spacing: 0.05em;
@@ -2445,14 +2447,11 @@ label.custom-control-label.pink::before {
     padding: 18px 31px;
 }
  .section-footer-inner a {
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 25px;
-    text-align: center;
     letter-spacing: 0.02em;
     padding: 0px 20px;
-    text-decoration: none;
     color: white;
 }
 
@@ -2464,15 +2463,53 @@ label.custom-control-label.pink::before {
 /*Small Laptops*/
 @media screen and (max-width:992px) and (min-width:768px) { 
 
+   .about-section1 h1 {
+    font-size: 32px;
+}
+    .about-section1 p {
+    padding: 0px 30px;
+}
+.about-section2 {
+    color: black;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.about-section2 h2 {
+    font-size: 24px;
+}
+.about-section2 p {
+    font-size: 14px;
+}
+.about-section4 {
+    padding-right: 0px;
+}
+.about-section5 {
+    padding: 0px 0px 0px 0px;
+}
+.about-section5 h2 {
+    font-size: 24px;
+}
+.about-section5 p {
+    font-size: 14px;
+}
+.section-footer-inner {
+    text-align: left;
+    padding-bottom: 15px;
+}
+.contact-section1 h3 {
+    font-size: 32px;
+}
+.men-shop-section2 .nav-link {
+    padding: 5px 16px !important;
+}
 }
 
 
 /*Tablet Devices*/
 @media screen and (max-width:767px) and (min-width:520px) { 
 
-    .about-section1 h1 {
-    font-size: 28px;
-    }
+
+
 }
 
 
@@ -2480,11 +2517,127 @@ label.custom-control-label.pink::before {
 
 /*Mobile Devices*/
 @media screen and (max-width:519px) and (min-width:320px) { 
+    .nav.navbar-nav.navbar-right a {
+    padding-left: 10px;
+}
+.brand img {
+        width: 80%;
+    }
+    .brand {
+    left: 35px;
+}
+#sidebar #togglebtn {
+    top: 65px;
+}
     .about-section1 h1 {
         font-size: 28px;
     }
     .about-section1 p {
-        padding: 0px 40px;
+        padding: 0px 20px;
     }
+    .about-section2 {
+    padding-right: 0px;
+    }
+    .about-section2 h2 {
+    line-height: 30px;
+    }
+    .about-section4 {
+    padding-right: 0px;
+    }
+    .section-footer-inner {
+    text-align: left;
+    padding-bottom: 15px;
+}
+.section-footer-inner a {
+    width:100%;
+    border: 0px;
+    padding: 0px 5px;
+    }
+    .copy-main {
+    border-top: 1px solid white;
+    padding-top: 15px;
+}
+.alterpage-section2 {
+    padding: 50px 0px 0px 0px !important;
+}
+.terms-section1 h2 {
+    font-size: 24px;
+}
+.measurement-head {
+    font-size: 14px;
+    padding-right: 10px !important;
+}
+.measurement-head1 {
+    font-size: 14px;
+    padding-left: 5px !important;
+}
+.measurement-section3 h3 {
+    font-size: 16px;
+}
+.measurement-section3-btn {
+    font-size: 15px;
+}
+.add-btn {
+    padding: 7px 28px;
+}
+.contact-section1 h3 {
+    font-size: 30px;
+}
+.contact-section2 h2 {
+    font-size: 26px;
+}
+.contact-us-form {
+    margin-top: 30px;
+}
+.dropdown {
+    right: 20px;
+    top: 55px;
+}
+.men-shop-section2 .nav-link {
+    padding:0px 9px !important;
+}
+.men-shop-section2 .nav-link {
+    font-size: 18px;
+}
+.dropbtn {
+    font-size: 18px;
+    padding: 8px 165px 8px 15px;
+}
+.men-shop-section1 h1 {
+    font-size: 28px;
+}
+.men-shop-product {
+    padding-bottom: 30px;
+}
+.personal-info-section {
+    padding: 30px 30px;
+}
+.personal-info-label {
+    font-size: 20px;
+}
 
+.personal-info-edit a {
+    font-size: 16px;
+}
+.p-form-style1 {
+    margin: 15px 0px!important;
+    font-size: 14px;
+}
+.personal-btn1 {
+    padding: 7px 30px;
+    font-size: 16px;
+}
+.personal-btn2
+{
+    padding: 7px 22px;
+    font-size: 16px;
+}
+.personal-btn-sec {
+    margin: 0 auto;
+    padding-top: 60px !important;
+}
+.cus-con
+{
+    margin: 0px !important;
+}
 }
