@@ -1,3 +1,16 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
 a {
 	text-decoration: none !important;
 	display:inline-block;
@@ -262,9 +275,156 @@ table.table-2 tr:nth-child(2) td {
     min-height: 90vh;
 }
 
-/*Add to Cart Page CSS Starts Here*/
-   
 
+
+
+
+/*Add to Cart Page CSS Starts Here*/
+
+
+
+
+/*AI Algorithm CSS Starts Here*/  
+
+.algorithm-form {
+    float: left;
+    width: 100%;
+    padding-right: 120px;
+    padding-top: 70px;
+}
+
+.form-field5 {
+    float: left;
+    width: 100%;
+}
+
+.form-field5 h6 {
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px !important;
+    font-size: 20px;
+    line-height: 30px;
+}
+.field-style5 {
+    width: 100%;
+ 
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    border-bottom: 1px solid silver;
+}
+.field-style5::placeholder {
+    color:#C4C4C4;
+    font-weight: 400;
+}
+span.info-tag1 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+}
+
+.field-style7 {
+    width: 100%;
+    color: #C4C4C4;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    border-bottom: 1px solid silver;
+}
+.edit-btn1 {
+    color: #044372;
+    font-size: 16px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    padding: 0px;
+    outline: none !important;
+    letter-spacing: 1px;
+}
+.skeleton-main {
+    float: left;
+    width: 100%;
+}
+
+.form-field6 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.form-field6 p {
+    color: #044372;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    margin-bottom: 8px;
+}
+
+.field-style6 {
+    height: 43px;
+    border: 1px solid black;
+    text-align: center;
+    width: 115px;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+}
+
+.skeleton-image {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.skeleton-image img {
+    width: 90%;
+}
+.custom-row1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.field-wrapper1 {
+    float: left;
+    width: 100%;
+    margin-top: -40px;
+}
+.button-wrapper1 {
+    margin-top: 60px;
+}
+
+
+.submit-btn6 {
+    font-size: 20px;
+    line-height: 30px;
+    background: black;
+    padding: 7px 37px;
+    color: white;
+    font-weight: 700;
+    margin: 0px 20px;
+    border: 2px solid black;
+}
+
+
+.submit-btn7 {
+    font-size: 20px;
+    line-height: 30px;
+    background: white;
+    padding: 7px 37px;
+    color: white;
+    font-weight: 700;
+    margin: 0px 20px;
+    border: 2px solid black;
+    color: black;
+}
+
+/*AI Algorithm CSS Ends Here*/   
 
 
 
@@ -297,6 +457,14 @@ table.table-2 tr:nth-child(2) td {
     width: 100%;
     border: 1px solid #C4C4C4;
     margin-top: 30px;
+}
+.algorithm-form {
+    float: left;
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 0px;
+    max-width: 300px;
+    margin-bottom: 50px;
 }
 }
 
@@ -376,7 +544,24 @@ section.custom-sec1 {
     line-height: 40px;
     letter-spacing: 1px;
 }
-     
+     .algorithm-form {
+    float: left;
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 0px;
+    max-width: 350px;
+    margin-bottom: 50px;
+}
+.field-wrapper1 {
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.field-style6 {
+    width: 100px;
+    height: 38px;
+}
 }
 
 
@@ -461,4 +646,39 @@ section.custom-sec1 {
 .custom-sec2 {
     min-height: 0px;
 }
+.custom-container1 {
+    max-width: 90%;
+}
+.algorithm-form {
+    float: left;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 0px;
+    max-width: 350px;
+}
+.skeleton-image {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.skeleton-image img {
+    width: 100%;
+    max-width: 250px;
+}
+.field-wrapper1 {
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+}
+.submit-btn6 , .submit-btn7 {
+    margin: 0px 5px;
+    padding: 6px 35px;
+    letter-spacing: 1px;
+}
+.button-wrapper1 {
+    margin-top: 20px;
+}
+
 }

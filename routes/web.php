@@ -36,7 +36,7 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/men-shop', 'mainController@menshop')->name('menshop');
 		Route::get('/men-shop-single', 'mainController@menshopsingle')->name('menshopsingle');
 		Route::get('/men-shop-fabric', 'mainController@menshopfabric')->name('menshopfabric');
-<<<<<<< HEAD
+
  
 		/*Nabeel*/
 		Route::get('/measurement-for-men', 'mainController@measurementformen')->name('measurementformen');
@@ -44,10 +44,8 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/ai-algorithm-calculate', 'mainController@aialgorithmcalculate')->name('aialgorithmcalculate');
 		Route::get('/add-to-cart', 'mainController@addtocart')->name('addtocart');
 		
- 
-=======
+
 		Route::get('/men-shop-customize', 'mainController@menshopcustomize')->name('menshopcustomize');
 		Route::get('/personal-information', 'mainController@personalinformation')->name('personalinformation');
 
->>>>>>> aead98f58561fafb0b5cd85519fa5d5826ae01fc
 	});
