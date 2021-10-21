@@ -112,5 +112,13 @@ class mainController extends Controller
         return view('web.ai-algorithm-calculate');
     }
     
+    function standardsize(){
+        return view('web.standard-size');
+    }
+
+    function manualmeasurements(){
+        return view('web.manual-measurements');
+    }
+    
 }
 

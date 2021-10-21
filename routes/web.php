@@ -43,6 +43,8 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/ai-algorithm', 'mainController@aialgorithm')->name('aialgorithm');
 		Route::get('/ai-algorithm-calculate', 'mainController@aialgorithmcalculate')->name('aialgorithmcalculate');
 		Route::get('/add-to-cart', 'mainController@addtocart')->name('addtocart');
+		Route::get('/standard-size', 'mainController@standardsize')->name('standardsize');
+		Route::get('/manual-measurements', 'mainController@manualmeasurements')->name('manualmeasurements');
 		
 
 		Route::get('/men-shop-customize', 'mainController@menshopcustomize')->name('menshopcustomize');

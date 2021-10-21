@@ -645,3 +645,18 @@ $(this).addClass("size-selected1")
 
 
 })
+
+
+
+$(document).ready(function(){
+
+$('.standard-selection').children("label").click(function(){
+
+$('.standard-selection').find("input").removeAttr("checked")
+$(this).children("input").attr("checked","checked")
+ $(".standard-selection").children("label").removeClass("standard-selected")
+$(this).addClass("standard-selected")
+})
+
+
+})

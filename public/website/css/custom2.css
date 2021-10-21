@@ -515,6 +515,62 @@ span.custom-line2 {
     letter-spacing: 0.5px !important;
 }
 
+.standard-size-chart {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.standard-size-image {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+ 
+}
+
+.standard-size-image img {
+    width: 100%;
+    max-width: 700px;
+}
+.standard-size-options {
+    float: left;
+    width: 100%;
+    margin-bottom: -15px;
+}
+
+.standard-selection label {
+    margin: 0px !important;
+}
+
+.standard-selection label input {
+    display: none;
+}
+
+.standard-selection label {
+    background: #044372;
+    color: white;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 26px;
+    font-weight: 700;
+    cursor: pointer !important;
+    letter-spacing: 1px;
+    border-radius: 100%;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    box-shadow: 1px 2px 3px #89a3b5;
+}
+.standard-selection {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 18px;
+}
+
+label.standard-selected {
+    background: black !important;
+}
 
 
 /*AI Algorithm CSS Ends Here*/   
@@ -661,6 +717,35 @@ section.custom-sec1 {
     margin-bottom: 10px !important;
     font-size: 18px;
     line-height: 25px;
+}
+.standard-size-chart {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.standard-selection {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px 10px 10px;
+}
+.standard-selection label {
+    background: #044372;
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer !important;
+    letter-spacing: 1px;
+    border-radius: 100%;
+    box-shadow: 1px 2px 3px #89a3b5;
+}
+.standard-size-options {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
 }
 }
 
@@ -826,5 +911,34 @@ div.field-wrapper2 {
     float: left;
     width: 100%;
     border-left: 1px solid #C4C4C4 !important;
+}
+.standard-size-chart {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.standard-selection {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px 10px 10px;
+}
+.standard-selection label {
+    background: #044372;
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer !important;
+    letter-spacing: 1px;
+    border-radius: 100%;
+    box-shadow: 1px 2px 3px #89a3b5;
+}
+.standard-size-options {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
 }
 }
