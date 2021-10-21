@@ -2640,4 +2640,80 @@ label.custom-control-label.pink::before {
 {
     margin: 0px !important;
 }
+.slide1 h2 {
+    font-size: 40px;
+    
+}
+.slide3-inner h3 {
+    font-size: 40px;
+    
+}
+.slide1-mob {
+    background: #C4C4C480;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.slide1 {
+    max-width: 80%;
+}
+.slide1 h3 {
+    font-size: 18px;
+}
+.slide1-btn1 {
+    padding: 15px 50px 15px 50px;
+    font-size: 17px;
+    margin-right: 0px;
+}
+.slide1-btn2 {
+    padding: 15px 63px 15px 62px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.slide2 {
+    max-width: 82%;
+}
+.slide2 h2 {
+    font-size: 30px;
+    padding: 0px !important;
+}
+.slide2 h3 {
+    font-size: 21px;
+}
+.slide2 h4 {
+    font-size: 26px;
+    padding: 0px !important;
+}
+.slide2-btn
+{
+    margin-top: 15px !important;
+}
+.slide3 {
+    max-width: 82%;
+    padding-top: 280px;
+}
+.slide3-inner {
+    background: url(../images/box-white.png);
+    background-size: 100% 100%;
+}
+.slide3-inner h2 {
+    color: white;
+}
+.slide3-inner h3 {
+    color: white;
+    left: -24px;
+}
+.slide3-inner h4 {
+    color: white;
+}
+.slide3-inner hr {
+    background: white;
+}
+.slide3-bottom-btn1 {
+    background: white;
+    color: black;
+}
+.slide3-bottom-btn2 {
+    background: white;
+    color: black;
+}
 }

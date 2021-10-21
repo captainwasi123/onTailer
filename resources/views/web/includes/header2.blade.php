@@ -3,14 +3,6 @@
   <nav class="navbar navbar-inverse pad-top-40 pad-bot-30 border-for-other-pages">
     <div class="container-fluid">
       <div class="navbar-header">
-        <!-- <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn white-add" onclick="closeNav()"><img src="{{URL::to('/public/website')}}/images/humberger.png" /></a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
-        </div>
-        <span style="font-size:30px;cursor:pointer" class="white-add" onclick="openNav()"><img src="{{URL::to('/public/website')}}/images/humberger.png"></span> -->
         <div id="sidebar">
           <div id="togglebtn" onclick="togglesidebar()">
             <span></span>

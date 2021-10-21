@@ -9,12 +9,14 @@
   <div class="section slider1">
     <div class="container">
       <div class="slide1">
-        <h2 class="no-margin pad-bot-20 trochut-font">VIEW COLLECTION</h2>
-        <h3 class="news-font no-margin">CUSTOM TAILORED CLOTHING</h3>
-        <div class="m-t-30">
-          <button type="button" class="btn slide1-btn1 news-font">SHOP WOMEN</button>
-          <button type="button" class="btn slide1-btn2 news-font">SHOP MEN</button>
-        </div>        
+        <div class="slide1-mob">
+          <h2 class="no-margin pad-bot-20 trochut-font">VIEW COLLECTION</h2>
+          <h3 class="news-font no-margin">CUSTOM TAILORED CLOTHING</h3>
+          <div class="m-t-30">
+            <button type="button" class="btn slide1-btn1 news-font">SHOP WOMEN</button>
+            <button type="button" class="btn slide1-btn2 news-font">SHOP MEN</button>
+          </div>           
+        </div>               
       </div>       
     </div>
   </div>
@@ -27,7 +29,7 @@
         <h2 class="trochut-font no-margin pad-bot-20">WE MAKE IT FIT</h2>
         <h3 class="trochut-font no-margin ">WE MAKE IT PERSONAL</h3>
         <h4 class="trochut-font no-margin pad-top-10">WE MAKE IT RIGHT</h4>
-        <div class="m-t-30">
+        <div class="m-t-30 slide2-btn">
           <button type="button" class="btn slide1-btn1 news-font">SHOP WOMEN</button>
           <button type="button" class="btn slide1-btn2 news-font">SHOP MEN</button>
         </div>
