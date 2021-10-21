@@ -63,28 +63,28 @@
       <div class="container-fluid">
         <div class="slide4-1">
           <div class="row">
-            <div class="col-md-3"></div>
-              <div class="col-md-1"><hr class="slide4-bor"></div>
+            <div class="col-md-3 mobile-hide"></div>
+              <div class="col-md-1 mobile-hide"><hr class="slide4-bor"></div>
                 <div class="col-md-4">
                   <div class="slide4-sec1">
                     <h2 class="abril-font no-margin">WE’VE SOMETHING FOR EVERYONE</h2>
                   </div>           
                 </div>
-                <div class="col-md-1"><hr class="slide4-bor"></div>
-                <div class="col-md-3"></div>  
+                <div class="col-md-1 mobile-hide"><hr class="slide4-bor"></div>
+                <div class="col-md-3 mobile-hide"></div>  
           </div>
         </div>
       </div>
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-4">
             <div class="slide4-sec-2">
               <h3 class="trochut-font no-margin">MEN &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-                <img src="{{URL::to('/public/website')}}/images/arrow-right.png"> </h3>
+                <img src="{{URL::to('/public/website')}}/images/arrow-right.png" class="mobile-hide"> </h3>
             </div>        
           </div>
-          <div class="col-md-10">
+          <div class="col-md-10 col-lg-10 col-8 col-sm-10">
             <div class="seller-grid arrow-style2">
               <div class="seller-box2">
                   <img alt="product-image" src="{{URL::to('/public/website')}}/images/men-shirt.jpg"/>
@@ -115,15 +115,15 @@
         </div>
       </div>
 
-      <div class="container-fluid">
+      <div class="container-fluid ">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-4">
             <div class="slide4-sec-2">
               <h3 class="trochut-font no-margin">WOMEN &nbsp; 
-                <img src="{{URL::to('/public/website')}}/images/arrow-right.png"></h3>
+                <img src="{{URL::to('/public/website')}}/images/arrow-right.png" class="mobile-hide"></h3>
             </div>
           </div>
-          <div class="col-md-10">
+          <div class="col-md-10 col-lg-10 col-8 col-sm-10">
             <div class="seller-grid arrow-style2">
               <div class="seller-box2">
                   <img alt="product-image" src="{{URL::to('/public/website')}}/images/women-shirts.jpg"/>
@@ -161,6 +161,8 @@
   </div>
 
     <!-- slider 4 close -->
+
+  <!-- slider 5 start -->
   <div class="section slider5">
     <div class="container">
       <div class="slide5">
@@ -178,7 +180,9 @@
       </div>       
     </div>
   </div>
+<!-- slider 5 close -->
 
+ <!-- slider 6 start -->
   <div class="section slider6">
     <div class="container">
       <div class="slide6">      
@@ -190,29 +194,31 @@
       </div>       
     </div>
   </div>
+<!-- slider 6 close -->
 
+ <!-- slider 7 start -->
   <div class="section no-pad">
     <div class="slide4">
       <div class="container slide4-main">
         <div class="slide7-1">
           <div class="row">
-            <div class="col-md-3"></div>
-              <div class="col-md-1 no-pad"><hr class="slide4-bor"></div>
-                <div class="col-md-4 no-pad">
-                  <div class="slide4-sec1">
+            <div class="col-md-3 col-1"></div>
+              <div class="col-md-1 col-lg-1 col-2 no-pad"><hr class="slide4-bor"></div>
+                <div class="col-md-4 col-lg-4 col-6 no-pad">
+                  <div class="slide7-sec1">
                     <h2 class="abril-font no-margin">OUR BEST SELLERS</h2>
                   </div>           
                 </div>
-                <div class="col-md-1 no-pad"><hr class="slide4-bor"></div>
-                <div class="col-md-3"></div>  
+                <div class="col-md-1 col-lg-1 col-2 no-pad"><hr class="slide4-bor"></div>
+                <div class="col-md-3 mobile-hide"></div>  
           </div>
         </div>
       </div>
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-10">
+          <div class="col-lg-2 col-md-2 col-3"></div>
+          <div class="col-md-10 col-9">
             <div class="seller-grid1 arrow-style2 no-margin">
               <div class="seller-box1">
                   <img alt="product-image" src="{{URL::to('/public/website')}}/images/best-seller.png"/>
@@ -237,15 +243,15 @@
       <div class="container m-t-70">
         <div class="slide7-2">
           <div class="row">
-            <div class="col-md-3"></div>
-              <div class="col-md-1 no-pad"><hr class="slide4-bor"></div>
-                <div class="col-md-4 no-pad">
-                  <div class="slide4-sec1">
+            <div class="col-md-3 col-1"></div>
+              <div class="col-md-1 col-lg-1 col-2 no-pad"><hr class="slide4-bor"></div>
+                <div class="col-md-4 col-lg-4 col-6 no-pad">
+                  <div class="slide7-sec1">
                     <h2 class="abril-font no-margin">NEW LAUNCH</h2>
                   </div>           
                 </div>
-                <div class="col-md-1 no-pad"><hr class="slide4-bor"></div>
-                <div class="col-md-3"></div>  
+                <div class="col-md-1 col-lg-1 col-2 no-pad"><hr class="slide4-bor"></div>
+                <div class="col-md-3 mobile-hide"></div>  
           </div>
         </div>
       </div>
