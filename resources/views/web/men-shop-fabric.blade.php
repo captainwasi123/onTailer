@@ -2,27 +2,33 @@
 @section('title', 'Men Shop Fabric')
 @section('content')
 <script type="text/javascript">
-  function openNav1() {
-  document.getElementById("mySidenav1").style.width = "450px";
-}
-
-function closeNav1() {
-  document.getElementById("mySidenav1").style.width = "0";
-}
-if (screen.width <= 768) {
     function openNav1() {
-  document.getElementById("mySidenav1").style.width = "240px";
-}
+      document.getElementById("mySidenav1").style.width = "450px";
+    }
 
-function closeNav1() {
-  document.getElementById("mySidenav1").style.width = "0";
-}
+    function closeNav1() {
+      document.getElementById("mySidenav1").style.width = "0";
+    }
 
+if (screen.width <= 767) {
+    function openNav1() {
+      document.getElementById("mySidenav1").style.width = "240px";
+    }
+
+    function closeNav1() {
+      document.getElementById("mySidenav1").style.width = "0";
+    }
 }
 </script>
+<style type="text/css">
+  footer {
+    display: none;
+}
+
+</style>
 <!-- section heading -->
   <section>
-    <div class="container-fluid custom-gird-website shop-size pad-top-100 pad-bot-100">
+    <div class="container-fluid custom-gird-website shop-size pad-top-100 pad-bot-100 mobile-main-heading">
       <h3 class="no-margin" style="text-align: center;">
         <span class="measurement-head news-font pad-right-30"><b>FABRIC</b></span>
         <span class="measurement-head1 news-font pad-left-30">CUSTOMIZE</span>
@@ -268,7 +274,7 @@ function closeNav1() {
   <section>
     <div class="container-fluid pad-top-60 custom-gird-website">
       <div class="row">
-        <div class="col-lg-10 col-md-10 col-12 col-sm-12">
+        <div class="col-lg-10 col-md-12 col-12 col-sm-12">
           <div class="xzoom-container xzoom-custom">            
             <img class="xzoom zoom-main-image order-lg-1" id="xzoom-default" src="{{URL::to('/public/website')}}/images/fabric.jpg" xoriginal="{{URL::to('/public/website')}}/images/fabric2.jpg" />
             <div class="xzoom-thumbs xzoom-section">
@@ -376,7 +382,7 @@ function closeNav1() {
             <i class="fa fa-search"></i>          
           </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-12 col-sm-12 ">
+        <div class="col-lg-2 col-md-12 col-12 col-sm-12 ">
           <div class="men-shop-fabric-3">
             <h2 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h2>
             <h3 class="news-font no-margin pad-top-10">$ 1000/-</h3>

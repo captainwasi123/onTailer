@@ -36,6 +36,7 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/men-shop', 'mainController@menshop')->name('menshop');
 		Route::get('/men-shop-single', 'mainController@menshopsingle')->name('menshopsingle');
 		Route::get('/men-shop-fabric', 'mainController@menshopfabric')->name('menshopfabric');
+		Route::get('/modal', 'mainController@modal')->name('modal');
 
  
 		/*Nabeel*/

@@ -102,6 +102,9 @@ section , header , footer {
 .pad-top-100 {
     padding-top: 100px !important
 }
+.pad-top-120 {
+    padding-top: 120px !important
+}
 .pad-top-130 {
     padding-top: 130px !important
 }
@@ -261,6 +264,9 @@ section , header , footer {
 }
 .m-l-80 {
     margin-left: 80px !important;
+}
+.m-r-30 {
+    margin-right: 30px !important;
 }
 .m-r-50 {
     margin-right: 50px !important;
@@ -1173,46 +1179,68 @@ color: #000000;
 {
     padding:0px;
 }
+.login-main-section {
+    width: 100%;
+    float: none;
+    max-width: 88%;
+/*    padding-left: 30px;*/
+}
 .login-section1
 {
-    padding:123px 0px 50px 0px;
     text-align: center;
 }
 .login-section1 h2
 {
-font-family: Abril Fatface;
-font-style: normal;
-font-weight: normal;
 font-size: 35px;
 line-height: 47px;
 letter-spacing: 0.02em;
-text-transform: uppercase;
 color: #FFFFFF;
-padding-bottom: 50px;
+
 }
 .login-section1 h3
 {
-font-family: News Cycle;
-font-style: normal;
-font-weight: normal;
 font-size: 25px;
 line-height: 30px;
-/* or 120% */
-
-text-align: center;
 letter-spacing: 0.02em;
-text-transform: uppercase;
-
 color: #FFFFFF;
 padding-top: 30px;
 }
 
-.login-section2 {
+/*.login-section2 {
     padding-top: 110px;
     padding-left: 30px;
     padding-right: 65px;
+}*/
+
+.modal-input
+{
+    width: 100%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #C4C4C4;
+    font-family: News Cycle;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #C4C4C4;
+    outline: none !important;
+    margin-bottom: 40px;
 }
-.login-section2 form input[type="password"] {
+.modal-submit
+{
+    border: 2px solid #000000;
+    width: 100%;
+    background: white;
+    font-family: News Cycle;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 20px !important;
+}
+/*.login-section2 form input[type="password"] {
     width: 100%;
     border-top: 0px;
     border-left: 0px;
@@ -1226,8 +1254,8 @@ padding-top: 30px;
     letter-spacing: 0.02em;
     color: #C4C4C4;
 
-}
-.login-section2 form input[type="text"] {
+}*/
+/*.login-section2 form input[type="text"] {
     width: 100%;
     border-top: 0px;
     border-left: 0px;
@@ -1240,8 +1268,8 @@ padding-top: 30px;
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #C4C4C4;
-}
-.login-section2 form input[type="email"] {
+}*/
+/*.login-section2 form input[type="email"] {
     width: 100%;
     border-top: 0px;
     border-left: 0px;
@@ -1254,9 +1282,9 @@ padding-top: 30px;
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #C4C4C4;
-}
+}*/
 
-.login-section2 form input[type="submit"] {
+/*.login-section2 form input[type="submit"] {
 border: 2px solid #000000;
     box-sizing: border-box;
     width: 100%;
@@ -1270,43 +1298,32 @@ border: 2px solid #000000;
     letter-spacing: 0.02em;
     color: #000000;
     margin-bottom: 20px;
-}
-.login-section2 form input {
+}*/
+/*.login-section2 form input {
     margin-bottom: 40px;
-}
+}*/
 .login-section3 h3 {
-    font-family: News Cycle;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14.5px;
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #044372;
 }
 .social-login a {
-    background: #3B5998;
     padding: 6px 45px;
     color: white;
-    margin-right: 30px;
 }
 .social-login {
     text-align: center;
     padding-top: 35px;
 }
 .login-section3 h4 {
-    font-family: News Cycle;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #000000;
-        padding-top: 60px;
-    padding-bottom: 15px;
 }
 button.close {
     padding: 0px 4px 2px 4px;
@@ -2087,7 +2104,7 @@ border-radius: 0px;
 
 
 .sidenav1 {
-    height: 635px;
+    height: 100vh;
     width: 0;
     position: absolute;
     z-index: 1;
@@ -2264,10 +2281,10 @@ label.custom-control-label.pink::before {
 .sharing-options img {
     padding-left: 30px;
 }
-.shop-size
+/*.shop-size
 {
     padding: 40px 0px !important; 
-}
+}*/
 .zoom-main-image {
     height: 600px;
 }
@@ -2467,7 +2484,13 @@ label.custom-control-label.pink::before {
     padding: 0px 20px;
     color: white;
 }
-
+label.radio-inline span {
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #141414;
+}
 
 
 
@@ -2515,6 +2538,46 @@ label.custom-control-label.pink::before {
 .men-shop-section2 .nav-link {
     padding: 5px 16px !important;
 }
+.personal-info-label {
+    font-size: 22px;
+}
+.personal-info-edit a {
+    font-size: 14px;
+}
+.tablet-none
+{
+    display: none;
+}
+.personal-btn1 {
+    margin-right: 15px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.personal-btn2 {
+    font-size: 20px;
+    padding: 10px 25px;
+}
+.zoom-main-image {
+    width: 52% !important;
+    padding-right: 20px;
+    height: 565px;
+}
+.xzoom-section {
+    margin: 0px 10px 0px 0px !important;
+}
+.xzoom-custom i {
+    bottom: 110px;
+    right: auto;
+    left: 35px;
+}
+.men-shop-fabric-3 {
+    text-align: right;
+    width: 100%;
+    max-width: 50%;
+    float: right;
+    padding-bottom: 20px;
+}
+
 }
 
 
@@ -2925,4 +2988,23 @@ form.pad-top-90 {
     font-size: 11px;
     line-height: 12px;
 }
+.sidenav1 {
+    height: 101.5vh !important;
+}
+.filter-main
+{
+    padding-right:0px !important;
+}
+.filter-accordian {
+    padding-right: 10px !important;
+}
+.men-customize-1 h4 {
+    font-size: 12px;
+    line-height: 15px;
+}
+.mobile-main-heading
+{
+  padding: 50px 0px !important;
+}
+
 }

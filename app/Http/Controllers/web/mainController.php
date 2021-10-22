@@ -93,6 +93,10 @@ class mainController extends Controller
 
     	return view('web.personal-information');
     }
+    function modal(){
+
+        return view('web.modal');
+    }
     
     
     /*Nabeel*/

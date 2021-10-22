@@ -30,29 +30,23 @@
           <div class="personal-info-section">
             <form action="#" method="post">
               <div class="row">
-                <div class="col-md-5">
+                <div class="col-lg-5 col-md-6">
                   <div>
                     <label class="form-label personal-info-label abril-font" for="inputEmail">NAME</label>
                     <label class="form-label personal-info-edit news-font" for="inputEmail" style="float: right;"><a href="">Edit</a></label>
                     <input type="email" class="form-control p-form-style1 m-t-40" id="inputEmail" placeholder="First Name" required>
                   </div>                
                 </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-5">
+                <div class="col-lg-2 col-md-1 tablet-none"></div>
+                <div class="col-lg-5 col-md-6">
                   <div>
                     <input type="email" class="form-control p-form-style1 m-t-80" id="inputEmail" placeholder="Last Name" required>
                   </div>                
                 </div>
                 <style type="text/css">
-           label.radio-inline span {
-    padding-left: 20px;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.02em;
-    color: #141414;
-}
+           
                 </style>
-                <div class="col-md-5 m-t-50">
+                <div class="col-lg-5 col-md-6 col-6 m-t-50">
                   <div>
                     <label class="form-label personal-info-label abril-font" for="inputEmail">YOUR GENDER</label>
                     <!-- <input type="email" class="form-control p-form-style1 m-t-40" id="inputEmail" placeholder="First Name" required> -->
@@ -67,10 +61,10 @@
                     
                   </div>                
                 </div>
-                <div class="col-md-2"></div>
+                <div class="col-lg-2 col-md-1"></div>
                 <div class="col-md-5"></div>
 
-                <div class="col-md-5 m-t-50">
+                <div class="col-lg-5 col-md-6 m-t-50">
                   <div>
                     <label class="form-label personal-info-label abril-font" for="inputEmail">EMAIL</label>
                     <label class="form-label personal-info-edit news-font" for="inputEmail" style="float: right;"><a href="">&nbsp;&nbsp;|&nbsp;&nbsp;Change Password</a></label>
@@ -78,9 +72,9 @@
                     <input type="email" class="form-control p-form-style1 m-t-40" id="inputEmail" placeholder="Email" required>
                   </div>                
                 </div>
-                <div class="col-md-2"></div>
+                <div class="col-md-2 tablet-none"></div>
 
-                <div class="col-md-5 m-t-50">
+                <div class="col-lg-5 col-md-6 m-t-50">
                   <div>
                     <label class="form-label personal-info-label abril-font" for="inputEmail">MOBILE NUMBER</label>
                     <label class="form-label personal-info-edit news-font" for="inputEmail" style="float: right;"><a href="">Edit </a></label>
@@ -88,7 +82,7 @@
                   </div>               
                 </div>
 
-                <div class="col-md-5 m-t-50">
+                <div class="col-lg-5 col-md-6 m-t-50">
                   <div>
                     <label class="form-label personal-info-label abril-font" for="inputEmail">ADDRESS</label>
                     <label class="form-label personal-info-edit news-font" for="inputEmail" style="float: right;"><a href="">Edit </a></label>
@@ -97,8 +91,8 @@
                     <input type="text" class="form-control p-form-style1 m-t-40" id="inputEmail" placeholder="Pincode" required>
                   </div>                
                 </div>
-                  <div class="col-md-2"></div>
-                  <div class="col-md-5 m-t-80 cus-con">
+                  <div class="col-md-2 tablet-none"></div>
+                  <div class="col-lg-5 col-md-6 m-t-80 cus-con">
                     <div>
                       <select class="form-control p-form-style1 m-t-50">
                         <option>Country</option>
