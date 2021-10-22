@@ -1,22 +1,43 @@
 @extends('web.includes.master2')
 @section('title', 'Men Shop Fabric')
 @section('content')
+<script type="text/javascript">
+  function openNav1() {
+  document.getElementById("mySidenav1").style.width = "450px";
+}
 
+function closeNav1() {
+  document.getElementById("mySidenav1").style.width = "0";
+}
+if (screen.width <= 768) {
+    function openNav1() {
+  document.getElementById("mySidenav1").style.width = "240px";
+}
+
+function closeNav1() {
+  document.getElementById("mySidenav1").style.width = "0";
+}
+
+}
+</script>
 <!-- section heading -->
-  <section class="container-fluid pad-right-80 pad-left-80 pad-top-100 pad-bot-100">
-    <h3 class="no-margin" style="text-align: center;">
-      <span class="measurement-head news-font pad-right-30"><b>FABRIC</b></span>
-      <span class="measurement-head1 news-font pad-left-30">CUSTOMIZE</span>
-    </h3>   
+  <section>
+    <div class="container-fluid custom-gird-website shop-size pad-top-100 pad-bot-100">
+      <h3 class="no-margin" style="text-align: center;">
+        <span class="measurement-head news-font pad-right-30"><b>FABRIC</b></span>
+        <span class="measurement-head1 news-font pad-left-30">CUSTOMIZE</span>
+      </h3>
+    </div>   
   </section>
 
 <!-- section heading close -->
 
 <!-- section1 start -->
 
- <section class="container-fluid pad-left-80 pad-right-80">
+ <section>
+  <div class="container-fluid custom-gird-website">
     <div class="row">
-       	<div class="col-lg-6 col-md-6 col-12 col-sm-12">
+       	<div class="col-lg-6 col-md-6 col-6 col-sm-12">
        		<div class="men-shop-fabric-1">
        			<h2 class="abril-font no-margin">
        				<span style="font-size:30px;cursor:pointer" onclick="openNav1()">
@@ -99,15 +120,25 @@
 	                      			<div class="row">
 	                      				<div class="col-md-6">
 	                      					<label class="my no-margin">COTTON
-												<input type="checkbox" checked="checked">
-												<span class="checkmark"></span>
-											</label>
-											<label class="my no-margin">LINEN
-										    	<input type="checkbox">
-										    	<span class="checkmark"></span>
-											</label>
+												            <input type="checkbox" checked="checked">
+												            <span class="checkmark"></span>
+											            </label>
+            											<label class="my no-margin">LINEN
+            										    	<input type="checkbox">
+            										    	<span class="checkmark"></span>
+            											</label>
 	                      				</div>
-	                      				<div class="col-md-6 no-pad">
+                                <div class="col-md-6">
+                                  <label class="my no-margin">TENCEL
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                  </label>
+                                  <label class="my no-margin">COTTON BLEND
+                                      <input type="checkbox">
+                                      <span class="checkmark"></span>
+                                  </label>
+                                </div>
+	                      				<!-- <div class="col-md-6 no-pad">
 	                      					<label class="my no-margin">COTTON BLEND
 												<input type="checkbox">
 												<span class="checkmark"></span>
@@ -116,7 +147,7 @@
 												<input type="checkbox">
 												<span class="checkmark "></span>
 											</label>
-	                      				</div>                      				
+	                      				</div>  -->                     				
 	                      			</div>
 								</div>
 	                      	</div>
@@ -137,15 +168,25 @@
 	                      		<div class="row">
 	                      			<div class="col-md-6">
 					                    <label class="my">PLAIN
-											<input type="checkbox" checked="checked">
-											<span class="checkmark"></span>
-										</label>
-										<label class="my">STRIPPED
-											 <input type="checkbox">
-											 <span class="checkmark"></span>
-										</label>
-									</div>
-	                      			<div class="col-md-6 no-pad">
+                                <input type="checkbox" checked="checked">
+											          <span class="checkmark"></span>
+										          </label>
+										          <label class="my">STRIPPED
+											          <input type="checkbox">
+											           <span class="checkmark"></span>
+										          </label>
+									         </div>
+                           <div class="col-md-6">
+                              <label class="my">CHECKED
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                              </label>
+                              <label class="my">DOTTED
+                                <input type="checkbox">
+                                 <span class="checkmark"></span>
+                              </label>
+                           </div>
+	                      			<!-- <div class="col-md-6 no-pad">
 										<label class="my">CHECKED
 											 <input type="checkbox">
 											 <span class="checkmark"></span>
@@ -154,7 +195,7 @@
 											 <input type="checkbox">
 											 <span class="checkmark"></span>
 										</label>
-									</div>
+									</div> -->
 								</div>
 	                      	</div>
 	                    </div>
@@ -173,16 +214,26 @@
 		                      	<div class="material-section">
 			                      	<div class="row">
 			                      		<div class="col-md-6">
-						                    <label class="my">DENIM
-												<input type="checkbox" checked="checked">
-												<span class="checkmark"></span>
-											</label>
-											<label class="my">POPLIN
-											    <input type="checkbox">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="col-md-6 no-pad">
+  						                    <label class="my">DENIM
+  												          <input type="checkbox" checked="checked">
+  												          <span class="checkmark"></span>
+  											          </label>
+  											          <label class="my">POPLIN
+  											            <input type="checkbox">
+  												          <span class="checkmark"></span>
+  											          </label>
+										            </div>
+                                <div class="col-md-6">
+                                  <label class="my">DENIM
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                  </label>
+                                  <label class="my">POPLIN
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                  </label>
+                                </div>
+										<!-- <div class="col-md-6 no-pad">
 											<label class="my">TWILL
 											  	<input type="checkbox">
 											  	<span class="checkmark"></span>
@@ -191,7 +242,7 @@
 											  	<input type="checkbox">
 											  	<span class="checkmark"></span>
 											</label>
-		                      			</div>
+		                      			</div> -->
 		                  			</div>
 	                    		</div>
 	                  		</div>
@@ -203,17 +254,19 @@
       </div>
   </div>
 </div>
-       	<div class="col-lg-6 col-md-6 col-12 col-sm-12">
+       	<div class="col-lg-6 col-md-6 col-6 col-sm-12">
        		<div class="men-shop-fabric-2">
        			<h2 class="abril-font no-margin">SELECT FABRIC</h2>        			
        		</div>
        	</div>
     </div>
     <hr class="no-margin filter-section-1">
+  </div>
 </section>
 
 <!-- section1 start -->
- <section class="container-fluid pad-top-60 pad-left-80 pad-right-80">
+  <section>
+    <div class="container-fluid pad-top-60 custom-gird-website">
       <div class="row">
         <div class="col-lg-10 col-md-10 col-12 col-sm-12">
           <div class="xzoom-container xzoom-custom">            
@@ -221,7 +274,7 @@
             <div class="xzoom-thumbs xzoom-section">
               <a href="{{URL::to('/public/website')}}/images/fabric2.jpg">
               	<img class="xzoom-gallery xzoom-custom-gallery no-margin" width="80" src="{{URL::to('/public/website')}}/images/fabric.jpg">
-              	<div class="row no-margin pad-top-10 pad-bot-30">
+              	<div class="row no-margin pad-top-10 pad-bot-30 xzoom-sec-for-mobile">
               		<div class="col-md-6 no-pad">
               			<div class="xzoom-description">
               				<h3 class="news-font no-margin">CROWLEY</h3>
@@ -238,7 +291,7 @@
 
               <a href="{{URL::to('/public/website')}}/images/fabric2.jpg">
               	<img class="xzoom-gallery xzoom-custom-gallery no-margin" width="80" src="{{URL::to('/public/website')}}/images/fabric.jpg">
-              	<div class="row no-margin pad-top-10 pad-bot-30">
+              	<div class="row no-margin pad-top-10 pad-bot-30 xzoom-sec-for-mobile">
               		<div class="col-md-6 no-pad">
               			<div class="xzoom-description">
               				<h3 class="news-font no-margin">CROWLEY</h3>
@@ -254,7 +307,7 @@
               </a>
               <a href="{{URL::to('/public/website')}}/images/fabric2.jpg">
               	<img class="xzoom-gallery xzoom-custom-gallery no-margin" width="80" src="{{URL::to('/public/website')}}/images/fabric.jpg">
-              	<div class="row no-margin pad-top-10 pad-bot-30">
+              	<div class="row no-margin pad-top-10 pad-bot-30 xzoom-sec-for-mobile">
               		<div class="col-md-6 no-pad">
               			<div class="xzoom-description">
               				<h3 class="news-font no-margin">CROWLEY</h3>
@@ -272,7 +325,7 @@
             <div class="xzoom-thumbs xzoom-section m-r-50">
               <a href="{{URL::to('/public/website')}}/images/fabric2.jpg">
               	<img class="xzoom-gallery xzoom-custom-gallery no-margin" width="80" src="{{URL::to('/public/website')}}/images/fabric.jpg">
-              	<div class="row no-margin pad-top-10 pad-bot-30">
+              	<div class="row no-margin pad-top-10 pad-bot-30 xzoom-sec-for-mobile">
               		<div class="col-md-6 no-pad">
               			<div class="xzoom-description">
               				<h3 class="news-font no-margin">CROWLEY</h3>
@@ -289,7 +342,7 @@
 
               <a href="{{URL::to('/public/website')}}/images/fabric2.jpg">
               	<img class="xzoom-gallery xzoom-custom-gallery no-margin" width="80" src="{{URL::to('/public/website')}}/images/fabric.jpg">
-              	<div class="row no-margin pad-top-10 pad-bot-30">
+              	<div class="row no-margin pad-top-10 pad-bot-30 xzoom-sec-for-mobile">
               		<div class="col-md-6 no-pad">
               			<div class="xzoom-description">
               				<h3 class="news-font no-margin">CROWLEY</h3>
@@ -305,7 +358,7 @@
               </a>
               <a href="{{URL::to('/public/website')}}/images/fabric2.jpg">
               	<img class="xzoom-gallery xzoom-custom-gallery no-margin" width="80" src="{{URL::to('/public/website')}}/images/fabric.jpg">
-              	<div class="row no-margin pad-top-10 pad-bot-30">
+              	<div class="row no-margin pad-top-10 pad-bot-30 xzoom-sec-for-mobile">
               		<div class="col-md-6 no-pad">
               			<div class="xzoom-description">
               				<h3 class="news-font no-margin">CROWLEY</h3>
@@ -328,16 +381,15 @@
             <h2 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h2>
             <h3 class="news-font no-margin pad-top-10">$ 1000/-</h3>
             <h4 class="news-font no-margin pad-top-10">Cotton</h4>
-            <div class="sharing-options pad-top-40">
+            <div class="sharing-options pad-top-40 pad-bot-40">
             	<img src="{{URL::to('/public/website')}}/images/heart.png">
             	<img src="{{URL::to('/public/website')}}/images/share-icon.png">
             </div>
-            <div class="pad-top-40">
               <button class="btn no-margin men-shop-fabric-btn news-font">NEXT</button>            
-            </div>
           </div>        
       </div>                
-    </div>    
+    </div>
+  </div>    
 </section>    
 <!-- section1 close -->
 

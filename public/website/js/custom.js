@@ -15,13 +15,7 @@ verticalSwiping: true
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-function openNav1() {
-  document.getElementById("mySidenav1").style.width = "450px";
-}
 
-function closeNav1() {
-  document.getElementById("mySidenav1").style.width = "0";
-}
 
 // debounce from underscore.js
 function debounce(func, wait, immediate) {

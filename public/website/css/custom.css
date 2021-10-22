@@ -2229,6 +2229,9 @@ label.custom-control-label.pink::before {
     display: inline-block;
     margin: 0px 20px 0px 0px;
 }
+.xzoom-section a {
+    width: 100%;
+}
 .xzoom-custom-gallery {
     border: none !important;
     width: 100% !important;
@@ -2261,6 +2264,10 @@ label.custom-control-label.pink::before {
 .sharing-options img {
     padding-left: 30px;
 }
+.shop-size
+{
+    padding: 40px 0px !important; 
+}
 .zoom-main-image {
     height: 600px;
 }
@@ -2268,7 +2275,7 @@ label.custom-control-label.pink::before {
     display: flex !important;
 }
 .xzoom-custom i {
-    bottom: 65px;
+    bottom: 85px;
     right: 40px;
 }
 .my {
@@ -2281,7 +2288,7 @@ label.custom-control-label.pink::before {
     -ms-user-select: none;
     user-select: none;
     font-weight: normal;
-    font-size: 14.5px;
+    font-size: 14px;
     line-height: 14px;
     letter-spacing: 0.05em;
     color: #000000;
@@ -2819,5 +2826,103 @@ form.pad-top-90 {
 }
 .slide8-sec1-bottom a {
     padding: 0px 12px;
+}
+.men-shop-fabric-1 h2 {
+    font-size: 16px;
+}
+.men-shop-fabric-2 h2 {
+    font-size: 16px;
+}
+.men-shop-fabric-1 h2 span img {
+    width: 25%;
+}
+.men-shop-fabric-1 h2 span {
+    font-size: 16px !important;
+}
+.zoom-main-image
+{
+    width: 50% !important;
+    padding-right: 10px;
+    height: 400px;
+}
+.xzoom-custom-gallery {
+    height: 50px !important;
+}
+.xzoom-description h3 {
+    font-size: 12px;
+}
+.xzoom-description h4 {
+    font-size: 11px;
+    text-align: left !important;
+}
+.xzoom-sec-for-mobile
+{
+    padding-bottom: 0px !important;
+}
+.xzoom-section {
+    margin: 0px 10px 0px 0px !important;
+}
+.xzoom-custom i {
+    bottom: 20px;
+    left: 22px;
+    right: auto;
+    font-size: 14px;
+}
+.men-shop-fabric-3 h2 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.men-shop-fabric-3 h3 {
+    font-size: 14px;
+    line-height: 15px;
+    padding: 0px !important;
+}
+.men-shop-fabric-3 h4 {
+    font-size: 13px;
+    line-height: 30px;
+    padding: 0px !important;
+}
+.sharing-options {
+    padding: 0px !important;
+}
+.sharing-options img {
+    padding-left: 5px;
+    width: 12%;
+}
+.men-shop-fabric-btn {
+    font-size: 15px;
+    border-radius: 0px;
+    padding: 3px 30px;
+    margin-top: 10px !important;
+}
+.men-shop-fabric-3 {
+    text-align: right;
+    width: 100%;
+    max-width: 50%;
+    float: right;
+    padding-bottom: 20px;
+}
+.sidenav1 .closebtn {
+    position: absolute;
+    top: 8px;    
+    right: 10px;
+}
+.filter-section1 {
+    padding: 0px 15px 0px 86px;
+}
+.filter-section1 h3 a {
+    font-size: 18px !important;
+}
+.color-size::before {
+    width: 16px;
+    height: 16px;
+}
+.custom-radio {
+    padding-right: 0px !important;
+}
+.my {
+    padding-left: 20px;
+    font-size: 11px;
+    line-height: 12px;
 }
 }
