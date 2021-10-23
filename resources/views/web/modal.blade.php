@@ -11,15 +11,15 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-lg-4 col-md-12 col-12" style="background: #044372;">
-                <div class="login-section1 pad-top-120 pad-bot-50">
-                  <h2 class="abril-font pad-bot-50">LOGIN</h2>
+                <button type="button" class="close mobile" data-dismiss="modal">&times;</button>
+                <div class="login-section1 pad-top-120">
+                  <h2 class="abril-font pad-bot-50 no-margin">LOGIN</h2>
                   <img src="{{URL::to('/public/website')}}/images/login-page.png">
                   <h3 class="news-font pad-top-30">ACCESS YOUR ACCOUNT</h3>
-                </div>
-                
+                </div>                
               </div>
               <div class="col-lg-8 col-md-12 col-12">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <button type="button" class="close desktop" data-dismiss="modal">&times;</button>
                 <div class="login-main-section pad-top-120 pad-left-30">
                   <div class="login-section2">
                     <form>
@@ -53,27 +53,29 @@
         <div class="modal-body login-body">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-md-4" style="background: #044372;">
-                <div class="register-section1">
-                  <img src="images/login-page.png">
-                  <h3>create your account</h3>
+              <div class="col-lg-4 col-md-12 col-12" style="background: #044372; text-align: center;">
+                <div class="register-section1 pad-top-180">
+                  <img src="{{URL::to('/public/website')}}/images/login-page.png">
+                  <h3 class="no-margin news-font pad-top-30">CRATE YOUR ACCOUNT</h3>
                 </div>
                 
               </div>
-              <div class="col-md-8">
+              <div class="col-lg-8 col-md-12 col-12">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <div class="register-section2">
-                  <form>
-                    <input type="text" name="" placeholder="Name">
-                    <input type="email" name="" placeholder="Email">
-                    <input type="password" name="" placeholder="Password">
-                    <input type="submit" name="" value="Create Account">
-                  </form>
-                </div>
-                <div class="login-section3">
-                  <div class="social-login">
-                    <a href="" style="background: #3B5998;"><i class="fa fa-facebook-f"></i>&nbsp; FACEBOOK</a>
-                    <a href="" style="background:#D34836;"><i class="fa fa-google"></i>&nbsp; GOOGLE</a>
+                <div class="login-main-section pad-top-120 pad-left-30">
+                  <div class="register-section2">
+                    <form>
+                      <input type="text" class="modal-input" name="" placeholder="Name">
+                      <input type="email" class="modal-input" name="" placeholder="Email">
+                      <input type="password" class="modal-input" name="" placeholder="Password">
+                      <input type="submit" class="modal-submit" name="" value="Create Account">
+                    </form>
+                  </div>
+                  <div class="login-section3">
+                    <div class="social-login">
+                      <a href="" style="background: #3B5998;"><i class="fa fa-facebook-f"></i>&nbsp; FACEBOOK</a>
+                      <a href="" style="background:#D34836;"><i class="fa fa-google"></i>&nbsp; GOOGLE</a>
+                    </div>
                   </div>
                 </div>                              
               </div>      

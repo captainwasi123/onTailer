@@ -108,6 +108,9 @@ section , header , footer {
 .pad-top-130 {
     padding-top: 130px !important
 }
+.pad-top-180 {
+    padding-top: 180px !important
+}
 
 .pad-bot-10 {
     padding-bottom: 10px !important
@@ -1239,6 +1242,7 @@ padding-top: 30px;
     letter-spacing: 0.02em;
     color: #000000;
     margin-bottom: 20px !important;
+    padding: 6px 0px;
 }
 /*.login-section2 form input[type="password"] {
     width: 100%;
@@ -1333,35 +1337,32 @@ button.close {
     margin-top: 15px;
 }
 
-.register-section1
+/*.register-section1
 {
     padding:180px 0px 133px 0px;
     text-align: center;
-}
+}*/
 
 .register-section1 h3
 {
-font-family: News Cycle;
-font-style: normal;
-font-weight: normal;
 font-size: 25px;
 line-height: 30px;
-/* or 120% */
-
-text-align: center;
 letter-spacing: 0.02em;
-text-transform: uppercase;
-
 color: #FFFFFF;
-padding-top: 30px;
 }
 
 .register-section2 {
-    padding-top: 100px;
+    /*padding-top: 100px;
     padding-left: 30px;
-    padding-right: 65px;
+    padding-right: 65px;*/
+ /*   padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 65px;*/
+   /* width: 100%;
+    float: none;
+    max-width: 88%;*/
 }
-.register-section2 form input[type="password"] {
+/*.register-section2 form input[type="password"] {
     width: 100%;
     border-top: 0px;
     border-left: 0px;
@@ -1375,8 +1376,8 @@ padding-top: 30px;
     letter-spacing: 0.02em;
     color: #C4C4C4;
 
-}
-.register-section2 form input[type="text"] {
+}*/
+/*.register-section2 form input[type="text"] {
     width: 100%;
     border-top: 0px;
     border-left: 0px;
@@ -1389,8 +1390,8 @@ padding-top: 30px;
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #C4C4C4;
-}
-.register-section2 form input[type="email"] {
+}*/
+/*.register-section2 form input[type="email"] {
     width: 100%;
     border-top: 0px;
     border-left: 0px;
@@ -1403,9 +1404,9 @@ padding-top: 30px;
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #C4C4C4;
-}
+}*/
 
-.register-section2 form input[type="submit"] {
+/*.register-section2 form input[type="submit"] {
 border: 2px solid #000000;
     box-sizing: border-box;
     width: 100%;
@@ -1419,7 +1420,7 @@ border: 2px solid #000000;
     letter-spacing: 0.02em;
     color: #000000;
     margin-bottom: 20px;
-}
+}*/
 .register-section2 form input {
     margin-bottom: 40px;
 }
@@ -2491,6 +2492,14 @@ label.radio-inline span {
     letter-spacing: 0.02em;
     color: #141414;
 }
+.desktop
+{
+    display: block;
+}
+.mobile
+{
+    display: none;
+}
 
 
 
@@ -2577,7 +2586,64 @@ label.radio-inline span {
     float: right;
     padding-bottom: 20px;
 }
-
+.modal-dialog {
+    padding: 30px;
+}
+.desktop
+{
+    display: none;
+}
+.mobile
+{
+    display: block;
+}
+button.close {
+    padding: 0px 4px 5px 4px;
+    border: 2px solid white;
+    position: absolute;
+    right: 15px;
+    color: white;
+}
+.login-section1 {
+    padding: 20px 0px !important;
+}
+.login-section1 h2 {
+    font-size: 20px;
+    padding-bottom: 0px !important;
+}
+.login-section1 img {
+    width: 10%;
+}
+.login-section1 h3 {
+    font-size: 14px;
+    padding-top: 5px !important;
+}
+.login-main-section {
+    width: 100%;
+    float: none;
+    max-width: 85%;
+    padding: 60px 15px 0px 15px !important;
+    margin: 0 auto;
+}
+.modal-input {
+   margin-bottom: 25px;
+}
+.social-login a {
+    padding: 6px 40px;
+}
+.social-login a:nth-child(1) {
+    margin-right: 30px !important;
+}
+.login-section3 h4 {
+    font-size: 14px;
+}
+.social-login {
+    padding-top: 28px;
+}
+.login-section3 h4
+{
+    padding-top: 40px !important;
+}
 }
 
 
@@ -3006,5 +3072,61 @@ form.pad-top-90 {
 {
   padding: 50px 0px !important;
 }
-
+.login-section1 {
+    padding: 20px 0px !important;
+}
+.login-section1 h2 {
+    font-size: 20px;
+    padding-bottom: 0px !important;
+}
+.login-section1 img {
+    width: 20%;
+}
+.login-section1 h3 {
+    font-size: 14px;
+    padding-top: 5px !important;
+}
+.login-main-section {
+    width: 100%;
+    float: none;
+    max-width: 100%;
+    padding: 60px 15px 0px 15px !important;
+}
+.modal-input {
+   margin-bottom: 25px;
+}
+.social-login a {
+    padding: 6px 14px;
+}
+.social-login a:nth-child(1) {
+    margin-right: 20px !important;
+}
+.login-section3 h4 {
+    font-size: 14px;
+}
+.social-login {
+    padding-top: 28px;
+}
+.login-section3 h4
+{
+    padding-top: 40px !important;
+}
+button.close {
+    padding: 0px 4px 2px 4px;
+    border: 2px solid white;
+    position: absolute;
+    right: 15px;
+    color: white;
+}
+.modal-dialog {
+    padding: 10px;
+}
+.desktop
+{
+    display: none;
+}
+.mobile
+{
+    display: block;
+}
 }
