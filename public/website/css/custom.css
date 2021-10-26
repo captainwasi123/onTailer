@@ -68,6 +68,13 @@ section , header , footer {
     border-top: 0px;
     border-bottom: 0px;
 }
+.bor-r
+{
+    border-right: 1px solid #B1AFAF;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
 
 
 
@@ -108,6 +115,9 @@ section , header , footer {
 .pad-top-130 {
     padding-top: 130px !important
 }
+.pad-top-160 {
+    padding-top: 160px !important
+}
 .pad-top-180 {
     padding-top: 180px !important
 }
@@ -132,6 +142,9 @@ section , header , footer {
 }
 .pad-bot-80 {
     padding-bottom: 80px !important
+}
+.pad-bot-90 {
+    padding-bottom: 90px !important
 }
 .pad-bot-100 {
     padding-bottom: 100px !important
@@ -1313,6 +1326,7 @@ border: 2px solid #000000;
     letter-spacing: 0.02em;
     color: #044372;
 }
+
 .social-login a {
     padding: 6px 45px;
     color: white;
@@ -1437,7 +1451,7 @@ border: 2px solid #000000;
 }
 .forget-section1
 {
-    padding:155px 0px 133px 0px;
+/*    padding:155px 0px 133px 0px;*/
     text-align: center;
 }
 .forget-section1 h2
@@ -1454,41 +1468,27 @@ padding-bottom: 50px;
 }
 .forget-section1 h3
 {
-font-family: News Cycle;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 30px;
-/* or 120% */
-
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: uppercase;
-
-color: #FFFFFF;
-padding-top: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
-.forget-section2 {
+/*.forget-section2 {
     padding-top: 75px;
     padding-left: 30px;
     padding-right: 65px;
-}
+}*/
 
 
 .forget-section2 p {
-font-family: News Cycle;
-font-style: normal;
-font-weight: bold;
-font-size: 14.5px;
-line-height: 22px;
-letter-spacing: 0.02em;
-color: #000000;
-text-transform: lowercase;
-margin: 0px;
-padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 14.5px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #000000;
 }
-.forget-section2 form input[type="password"] {
+/*.forget-section2 form input[type="password"] {
     width: 100%;
     border-top: 0px;
     border-left: 0px;
@@ -1502,8 +1502,8 @@ padding-bottom: 50px;
     letter-spacing: 0.02em;
     color: #C4C4C4;
 
-}
-.forget-section2 form input[type="text"] {
+}*/
+/*.forget-section2 form input[type="text"] {
     width: 100%;
     border-top: 0px;
     border-left: 0px;
@@ -1516,8 +1516,8 @@ padding-bottom: 50px;
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #C4C4C4;
-}
-.forget-section2 form input[type="email"] {
+}*/
+/*.forget-section2 form input[type="email"] {
     width: 100%;
     border-top: 0px;
     border-left: 0px;
@@ -1530,22 +1530,26 @@ padding-bottom: 50px;
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #C4C4C4;
-}
+}*/
 
-.forget-section2 form input[type="submit"] {
-border: 2px solid #000000;
-    box-sizing: border-box;
+.forgot-btn1 {
+    border: 2px solid #000000;
     width: 47.7%;
     background: white;
-    font-family: News Cycle;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #000000;
-    margin-bottom: 20px;
+}
+.forgot-btn2 {
+    border: 2px solid #000000;
+    width: 47.7%;
+    background: black;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color:white;
 }
 .forget-section2 form input {
     margin-bottom: 40px;
@@ -2430,11 +2434,12 @@ label.custom-control-label.pink::before {
     border-bottom: 1px solid #C4C4C4;
     background: transparent;
     border-radius: 0px;
-    box-shadow: none;
+    box-shadow: none !important;
     padding: 0px;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.02em;
+    outline:none !important;
 }
 .personal-info-edit a {
     font-size: 20px;
@@ -2500,6 +2505,29 @@ label.radio-inline span {
 {
     display: none;
 }
+.payment-section
+  {
+    text-align: center;
+  }
+  .payment-section h2
+  {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+    color: #2DB50B;
+  }
+  .payment-section-btn
+  {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+    background: black;
+    color: white;
+    padding:6px 70px;
+    border:none;
+  }
 
 
 
@@ -2626,7 +2654,7 @@ button.close {
     margin: 0 auto;
 }
 .modal-input {
-   margin-bottom: 25px;
+   margin-bottom: 25px ;
 }
 .social-login a {
     padding: 6px 40px;
@@ -3093,7 +3121,7 @@ form.pad-top-90 {
     padding: 60px 15px 0px 15px !important;
 }
 .modal-input {
-   margin-bottom: 25px;
+   margin-bottom: 25px !important;
 }
 .social-login a {
     padding: 6px 14px;
@@ -3128,5 +3156,67 @@ button.close {
 .mobile
 {
     display: block;
+}
+.register-section1 {
+    padding: 30px 0px !important;
+}
+.register-section1 img {
+    width: 20%;
+}
+.register-section1 h3 {
+    font-size: 14px;
+    padding-top: 5px !important;
+}
+.create-section3
+{
+    padding-bottom: 40px !important;
+}
+.forget-section1 {
+    padding: 30px 0px !important;
+}
+.forget-section1 img {
+    width: 20%;
+}
+.forget-section1 h3 {
+    font-size: 14px;
+    padding-top: 5px !important;
+}
+.forget-section2 {
+    padding: 30px 15px 0px 15px !important;
+}
+.forget-section2 p
+{
+    padding-bottom: 25px !important;
+}
+.forgot-btn1 {
+    width: 45.7%;
+}
+.forgot-btn1 {
+    font-size: 16px;
+    margin-bottom: 25px !important;
+}
+.forgot-btn2 {
+    font-size: 16px;
+    margin-bottom: 25px !important;
+}
+.payment-section {
+    padding-top: 30px !important;
+}
+.payment-section img {
+    width: 40%;
+}
+.payment-section h2 {
+    font-size: 22px;
+}
+.payment-section-btn {
+    font-size: 16px;
+    padding: 2px 20px;
+    margin: 0px 0px 20px 0px !important;
+}
+.payment-cross
+{
+    padding: 0px 4px 2px 4px !important;
+    border: 2px solid grey !important;
+    color: grey !important;
 }
 }
