@@ -11,72 +11,7 @@
     </div>    
   </section>
 <!-- section close -->
-<style type="text/css">
-  .checkout-section {
-    padding: 80px 0px;
-}
-.shipping-info-label
-{
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 41px;
-}
-.shipping-info-content {
-    border: 1px solid #000000;
-    padding: 15px 5px;
-}
-.shipping-info-content1 {
-    border: 1px solid #000000;
-    /*padding: 15px 5px;*/
-}
-.shipping-info-content1 a {
-    background: #F0F0F0;
-    width: 100%;
-    padding: 14px 0px;
-}
-.discount-btn
-{
-  font-weight: bold;
-font-size: 25px;
-line-height: 41px;
-}
-.shipping-total h2 {
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 41px;
-}
-.shipping-total h3 {
-  font-size: 25px;
-  line-height: 41px;
-}
 
-.shipping-total h4 {
-  font-size: 20px;
-  line-height: 40px;
-  letter-spacing: 0.05em;
-  text-align: right;
-}
-.shipping-total span {
-font-size: 14.5px;
-line-height: 24px;
-}
-.shipping-dash
-{
-   border-top:1px dashed black;
-}
-.checkout-btn
-{
-  font-weight: bold;
-    font-size: 20px;
-    line-height: 33px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    border-radius: 0px;
-    border: 2px solid #000000;
-    padding: 4px 0px;
-    width: 100%;
-}
-</style>
 <!-- section1 start -->
   <section>
     <div class="container-fluid custom-gird-website pad-bot-200">

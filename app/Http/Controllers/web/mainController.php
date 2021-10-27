@@ -97,6 +97,14 @@ class mainController extends Controller
 
         return view('web.checkout');
     }
+    function paymentmethod(){
+
+        return view('web.payment-method');
+    }
+    function myorders(){
+
+        return view('web.my-orders');
+    }
     function modal(){
 
         return view('web.modal');

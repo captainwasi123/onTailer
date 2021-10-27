@@ -39,6 +39,8 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/men-shop-customize', 'mainController@menshopcustomize')->name('menshopcustomize');
 		Route::get('/personal-information', 'mainController@personalinformation')->name('personalinformation');
 		Route::get('/checkout', 'mainController@checkout')->name('checkout');
+		Route::get('/payment-method', 'mainController@paymentmethod')->name('paymentmethod');
+		Route::get('/my-orders', 'mainController@myorders')->name('myorders');
 		Route::get('/modal', 'mainController@modal')->name('modal');
 
  
