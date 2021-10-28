@@ -105,13 +105,42 @@ class mainController extends Controller
 
         return view('web.my-orders');
     }
+    function orderwithaimeasurement(){
+
+        return view('web.order-with-ai-measurement');
+    }
+    function orderwithmanualmeasurement(){
+
+        return view('web.order-with-manual-measurement');
+    }
+    function orderwithstandardmeasurement(){
+
+        return view('web.order-with-standard-measurement');
+    }
+    function viewshirtcustomization(){
+
+        return view('web.view-shirt-customization');
+    }
+    function cancelorder(){
+
+        return view('web.cancel-order');
+    }
+    function ordertracking(){
+
+        return view('web.order-tracking');
+    }
+    function ordercanceltracking(){
+
+        return view('web.order-cancel-tracking');
+    }
+    
     function modal(){
 
         return view('web.modal');
     }
     
     
-    /*Nabeel*/
+    /*Nabeel*/  
     function addtocart(){
 
         return view('web.add-to-cart');

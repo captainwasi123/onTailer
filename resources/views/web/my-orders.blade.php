@@ -4,12 +4,11 @@
 
 <!-- section heading -->
   <section>
-    <div class="container-fluid custom-gird-website pad-top-100 pad-bot-100">
-      <h3 class="no-margin" style="text-align: center;">
-        <span class="measurement-head news-font pad-right-30">personal information</span>
-        <span class="measurement-head1  news-font pad-left-30"><b>my measurement</b></span>
-      </h3>  
-    </div> 
+    <div class="container-fluid custom-gird-website pad-top-100">
+      <div class="about-section1 pad-bot-40">
+        <h1 class="abril-font no-margin">MY ORDERS</h1>
+      </div>
+    </div>    
   </section>
 <!-- section heading close -->
 
@@ -18,43 +17,52 @@
     <div class="container-fluid custom-gird-website pad-bot-200">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="measurement-section2">
+          <div class="measurement-section2 pad-top-20 pad-bot-20 pad-left-20 pad-right-20">
             <div class="row">
-              <div class="col-lg-1 col-md-1 col-sm-1 no-pad">
-                <img src="{{URL::to('/public/website')}}/images/measurement-1.jpg">
+              <div class="col-lg-1 col-md-1 col-sm-1 ">
+                <img src="{{URL::to('/public/website')}}/images/order-1.png">
               </div>
-              <div class="col-md-8 col-md-8 col-sm-6 col-xs-4 no-pad">
+              <div class="col-lg-7 col-md-8 col-sm-6 col-xs-4 no-pad">
                 <div class="measurement-section-3">
-                  <h2 class="abril-font no-margin">NAME</h2>
-                  <h3 class="news-font no-margin"><b>AI ALGORITHM -</b> BODY MEASUREMENT</h3>
-                </div>
-                
+                  <h3 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h3>
+                  <h4 class="no-margin news-font">Cotton</h4>
+                  <h2 class="news-font no-margin"><b>₹ 1000/-</b></h2>
+                </div>                
               </div>
-              <div class="col-md-3">
-                <div class="measurement-btn pad-top-20">
-                  <button type="button" class="btn view-btn measurement-section2-btn news-font">VIEW</button>
-                  <button type="button" class="btn delete-btn measurement-section2-btn news-font">DELETE</button>
+              <div class="col-md-4">
+                <div class="measurement-btn">
+                  <button type="button" class="btn order-btn1 news-font m-b-20 order-drop-view" onclick="orderDropdown()">VIEW ORDER DETAILS</button>
+                  <div id="order-drop" class="order-drop order-drop-view-content">
+                    <a href="#" class="roboto-font">View Selected Customization</a>
+                    <a href="#">View Measurements</a>
+                  </div>
+                  <button type="button" class="btn order-btn2 news-font">TRACK ORDER STATUS</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-12 pad-top-20">
-          <div class="measurement-section2">
+        <div class="col-lg-12 col-md-12 col-sm-12 pad-top-30">
+          <div class="measurement-section2 pad-top-20 pad-bot-20 pad-left-20 pad-right-20">
             <div class="row">
-              <div class="col-md-1 pad">
-                <img src="{{URL::to('/public/website')}}/images/measurement-2.jpg">
+              <div class="col-lg-1 col-md-1 col-sm-1 ">
+                <img src="{{URL::to('/public/website')}}/images/order-1.png">
               </div>
-              <div class="col-md-8 pad">
+              <div class="col-lg-7 col-md-8 col-sm-6 col-xs-4 no-pad">
                 <div class="measurement-section-3">
-                  <h2 class="abril-font no-margin">NAME</h2>
-                  <h3 class="news-font no-margin"><b>MANUAL INPUT -</b> BODY MEASUREMENT</h3>
-                </div>              
+                  <h3 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h3>
+                  <h4 class="no-margin news-font">Cotton</h4>
+                  <h2 class="news-font no-margin"><b>₹ 1000/-</b></h2>
+                </div>                
               </div>
-              <div class="col-md-3">
-                <div class="measurement-btn pad-top-20">
-                  <button type="button" class="btn view-btn measurement-section2-btn news-font">VIEW</button>
-                  <button type="button" class="btn delete-btn measurement-section2-btn news-font">DELETE</button>
+              <div class="col-md-4">
+                <div class="measurement-btn">
+                  <button type="button" class="btn order-btn1 news-font m-b-20 order-drop-view" onclick="orderDropdown()">VIEW ORDER DETAILS</button>
+                  <div id="order-drop" class="order-drop-view-content">
+                    <a href="#" class="roboto-font">View Selected Customization</a>
+                    <a href="#">View Measurements</a>
+                  </div>
+                  <button type="button" class="btn order-btn2 news-font">TRACK ORDER STATUS</button>
                 </div>
               </div>
             </div>
@@ -64,4 +72,23 @@
     </div> 
   </section>
 <!-- section1 close -->
+
+<script>
+function orderDropdown() {
+  document.getElementById("order-drop").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.order-drop-view')) {
+    var dropdowns = document.getElementsByClassName("order-drop-view-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 @endsection

@@ -41,6 +41,13 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/checkout', 'mainController@checkout')->name('checkout');
 		Route::get('/payment-method', 'mainController@paymentmethod')->name('paymentmethod');
 		Route::get('/my-orders', 'mainController@myorders')->name('myorders');
+		Route::get('/order-with-ai-measurement', 'mainController@orderwithaimeasurement')->name('orderwithaimeasurement');
+		Route::get('/order-with-manual-measurement', 'mainController@orderwithmanualmeasurement')->name('orderwithmanualmeasurement');
+		Route::get('/order-with-standard-measurement', 'mainController@orderwithstandardmeasurement')->name('orderwithstandardmeasurement');
+		Route::get('/view-shirt-customization', 'mainController@viewshirtcustomization')->name('viewshirtcustomization');
+		Route::get('/cancel-order', 'mainController@cancelorder')->name('cancelorder');
+		Route::get('/order-tracking', 'mainController@ordertracking')->name('ordertracking');
+		Route::get('/order-cancel-tracking', 'mainController@ordercanceltracking')->name('ordercanceltracking');
 		Route::get('/modal', 'mainController@modal')->name('modal');
 
  
@@ -51,8 +58,6 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/add-to-cart', 'mainController@addtocart')->name('addtocart');
 		Route::get('/standard-size', 'mainController@standardsize')->name('standardsize');
 		Route::get('/manual-measurements', 'mainController@manualmeasurements')->name('manualmeasurements');
-		
-
-		
+	
 
 	});
