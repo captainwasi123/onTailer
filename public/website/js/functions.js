@@ -1,4 +1,4 @@
- 	
+
  $('.what-need-data').slick({
   dots: true,
   infinite: true,
@@ -53,13 +53,8 @@
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
-
-
 
  $('.what-need-data2').slick({
   dots: true,
@@ -115,16 +110,8 @@
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
-
-
-
-
-
 
  $('.seller-grid').slick({
   dots: true,
@@ -180,9 +167,6 @@
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
 
@@ -240,13 +224,8 @@
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
-
-
 
  $('.seller-grid2').slick({
   dots: true,
@@ -302,15 +281,8 @@
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
-
-
-
-
   
  $('.related-images-data').slick({
   dots: true,
@@ -366,64 +338,48 @@
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
 
+//  $(document).ready(function(){
+//  	var val1 = 0;
+//  	$('.navbar-handler').children("img").click(function(){
 
- $(document).ready(function(){
+//  		if(val1==0){
+//  			$(this).attr("src","images/cross.png")
+//  		$('.navbar-custom').slideToggle()
+//  		val1 = 1;
+// }
+//  	else {
+//  		$('.navbar-custom').slideToggle()
+//  		$(this).attr("src","images/hamburger.png")
+//  		val1 = 0;
 
+//  	}
+//  	})
+//  })
 
- 	var val1 = 0;
+//  $(document).ready(function(){
 
- 	$('.navbar-handler').children("img").click(function(){
+//   var val2 = 0;
 
- 		if(val1==0){
- 			$(this).attr("src","images/cross.png")
- 		$('.navbar-custom').slideToggle()
+//   $('.dash-header').children("button").click(function(){
 
- 		val1 = 1;
- 	
- 	}
- 	else {
- 		$('.navbar-custom').slideToggle()
- 		$(this).attr("src","images/hamburger.png")
- 		val1 = 0;
+//     if(val2==0){
+//       $(this).children("img").attr("src","images/cross-black.png")
+//     $('.dash-sidebar').slideToggle()
 
- 	}
- 	})
- })
-
-
-
- $(document).ready(function(){
-
-
-  var val2 = 0;
-
-  $('.dash-header').children("button").click(function(){
-
-    if(val2==0){
-      $(this).children("img").attr("src","images/cross-black.png")
-    $('.dash-sidebar').slideToggle()
-
-    val2 = 1;
+//     val2 = 1;
   
-  }
-  else {
-    $('.dash-sidebar').slideToggle()
-     $(this).children("img").attr("src","images/hamburger-black.png")
-    val2 = 0;
+//   }
+//   else {
+//     $('.dash-sidebar').slideToggle()
+//      $(this).children("img").attr("src","images/hamburger-black.png")
+//     val2 = 0;
 
-  }
-  })
- })
-
-
-
-
+//   }
+//   })
+//  })
 
  $(document).ready(function(){
   
@@ -474,18 +430,14 @@
     
   });
   
-  
 });
-
 
 function responseMessage(msg) {
   $('.success-box').fadeIn(200);  
   $('.success-box div.text-message').html("<span>" + msg + "</span>");
 }
-
-
  
-  function readURL(input) {
+function readURL(input) {
     if (input.files && input.files[0]) {
         var reader = new FileReader();
         reader.onload = function(e) {
@@ -499,7 +451,6 @@ function responseMessage(msg) {
 $("#imageUpload").change(function() {
     readURL(this);
 });
- 
 
 function up(max) {
     document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) + 1;
@@ -513,7 +464,6 @@ function down(min) {
         document.getElementById("myNumber").value = min;
     }
 }
-
 
 var myFullpage = new fullpage('#fullpage', {
   menu: '#menu',
@@ -598,10 +548,6 @@ var myFullpage = new fullpage('#fullpage', {
   onSlideLeave: function(section, origin, destination, direction){}
 });
 
-
-
-
-
 $(function() {
   $('[data-decrease]').click(decrease);
   $('[data-increase]').click(increase);
@@ -633,30 +579,101 @@ function valueChange() {
   }
 }
 
+// $(document).ready(function(){
 
-$(document).ready(function(){
+// $('.size-select1').children("label").click(function(){
+// $(this).parents(".fitting-selection").find("input").removeAttr("checked")
+// $(this).children("input").attr("checked","checked")
+// $(this).parents(".fitting-selection").find("label").removeClass("size-selected1")
+// $(this).addClass("size-selected1")
+// })
 
-$('.size-select1').children("label").click(function(){
-$(this).parents(".fitting-selection").find("input").removeAttr("checked")
-$(this).children("input").attr("checked","checked")
-$(this).parents(".fitting-selection").find("label").removeClass("size-selected1")
-$(this).addClass("size-selected1")
-})
+// })
 
+// $(document).ready(function(){
 
-})
+// $('.standard-selection').children("label").click(function(){
 
+// $('.standard-selection').find("input").removeAttr("checked")
+// $(this).children("input").attr("checked","checked")
+//  $(".standard-selection").children("label").removeClass("standard-selected")
+// $(this).addClass("standard-selected")
+// })
 
-
-$(document).ready(function(){
-
-$('.standard-selection').children("label").click(function(){
-
-$('.standard-selection').find("input").removeAttr("checked")
-$(this).children("input").attr("checked","checked")
- $(".standard-selection").children("label").removeClass("standard-selected")
-$(this).addClass("standard-selected")
-})
+// })
 
 
-})
+$('.myslider').slick({
+slidesToScroll: 1,
+arrows: false,
+dots: true,
+vertical: true,
+verticalSwiping: true
+    
+});
+
+// debounce from underscore.js
+function debounce(func, wait, immediate) {
+  var timeout;
+  return function() {
+    var context = this, args = arguments;
+    var later = function() {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+    var callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+};
+
+// use x and y mousewheel event data to navigate flickity
+function slick_handle_wheel_event(e, slick_instance, slick_is_animating) {
+  // do not trigger a slide change if another is being animated
+  if (!slick_is_animating) {
+    // pick the larger of the two delta magnitudes (x or y) to determine nav direction
+    var direction =
+      Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+
+    console.log("wheel scroll ", e.deltaX, e.deltaY, direction);
+
+    if (direction > 0) {
+      // next slide
+      slick_instance.slick("slickNext");
+    } else {
+      // prev slide
+      slick_instance.slick("slickPrev");
+    }
+  }
+}
+
+// debounce the wheel event handling since trackpads can have a lot of inertia
+var slick_handle_wheel_event_debounced = debounce( 
+  slick_handle_wheel_event
+  , 100, true
+);
+
+// init slider 
+const slick_2 = $(".slides");
+slick_2.slick({
+  dots: true,
+  vertical: true,
+  // verticalSwiping: true,
+  arrows: false
+});
+var slick_2_is_animating = false;
+
+slick_2.on("afterChange", function(index) {
+  console.log("Slide after change " + index);
+  slick_2_is_animating = false;
+});
+
+slick_2.on("beforeChange", function(index) {
+  console.log("Slide before change " + index);
+  slick_2_is_animating = true;
+});
+
+slick_2.on("wheel", function(e) {
+  slick_handle_wheel_event_debounced(e.originalEvent, slick_2, slick_2_is_animating);  
+});

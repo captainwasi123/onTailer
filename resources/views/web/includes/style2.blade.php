@@ -11,6 +11,6 @@
 
 <link rel="stylesheet" type="text/css" href="{{URL::to('/public/website')}}/css/custom.css">
 <link rel="stylesheet" type="text/css" href="{{URL::to('/public/website')}}/css/custom2.css">
-<link rel="stylesheet" type="text/css" href="{{URL::to('/public/website')}}/css/slick.css"/>
-<link rel="stylesheet" type="text/css" href="{{URL::to('/public/website')}}/css/slick-theme.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="{{URL::to('/public/website')}}/css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="{{URL::to('/public/website')}}/css/slick-theme.css"/> -->
 <link rel='stylesheet' href='https://unpkg.com/xzoom/dist/xzoom.css'>
