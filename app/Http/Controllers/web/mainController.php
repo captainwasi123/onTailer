@@ -142,7 +142,6 @@ class mainController extends Controller
     
     /*Nabeel*/  
     function addtocart(){
-
         return view('web.add-to-cart');
     }
 

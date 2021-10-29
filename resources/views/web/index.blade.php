@@ -2,7 +2,6 @@
 @section('title', 'Home')
 @section('content')
 
-
 <!-- section1 start -->
 <section id="fullpage">
   <!-- slider 1 start -->

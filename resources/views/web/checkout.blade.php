@@ -20,17 +20,17 @@
           <div class="checkout-section">
             <form action="#" method="post">
               <div class="row">
-                <div class="col-lg-6 col-md-6 pad-right-80 bor-r">
+                <div class="col-lg-6 col-md-6 checkout-section1 pad-right-80 bor-r">
                   <div class="row">
                     <div class="col-md-12">
                       <label class="form-label personal-info-label abril-font" for="inputEmail">NAME</label>
                     </div>
                     
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-6">
                       <input type="text" class="form-control p-form-style1 m-t-40" id="inputEmail" placeholder="First Name" required>
                     </div>
                     
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-6">
                       <input type="text" class="form-control p-form-style1 m-t-40" id="inputEmail" placeholder="First Name" required>
                     </div>
                     
@@ -49,14 +49,14 @@
                       <input type="text" class="form-control p-form-style1 m-t-40" id="inputEmail" placeholder="Address" required>
                     </div>
 
-                    <div class="col-md-6">
-                      <select class="form-control p-form-style1 m-t-50">
+                    <div class="col-lg-6 col-md-6">
+                      <select class="form-control p-form-style1 m-t-40">
                         <option>Country</option>
                         <option>Pakistan</option>
                       </select>                      
                     </div>
                     
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-6">
                       <input type="text" class="form-control p-form-style1 m-t-40" id="inputEmail" placeholder="City" required>                      
                     </div>
                     
@@ -73,7 +73,7 @@
                   </div>                                  
                 </div>
 
-                <div class="col-lg-6 col-md-6 pad-left-50">
+                <div class="col-lg-6 col-md-6 pad-left-50 checkout-section2">
                   <label class="form-label shipping-info-label news-font" for="inputEmail">SHIPPING METHOD</label>
                   <div class="shipping-info-content">
                     <img src="{{URL::to('/public/website')}}/images/checkout-shipping.png">
@@ -87,10 +87,10 @@
                   <label class="form-label shipping-info-label news-font pad-top-40" for="inputEmail">PAYMENT METHOD</label>
                   <div class="shipping-info-content1">
                     <div class="row">
-                      <div class="col-md-9">
+                      <div class="col-lg-9 col-md-9 col-9">
                         <input type="text" style="border:none; padding-left: 20px; padding-top: 25px;" class="form-control p-form-style1 news-font" id="inputEmail" placeholder="Gift Voucher" required>       
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-lg-3 col-md-3 col-3 no-pad">
                          <a href="" class="btn news-font discount-btn">ADD</a>
                       </div>                      
                     </div>
@@ -99,25 +99,25 @@
                   <div class="shipping-total pad-top-30">
                     <h2 class="news-font no-margin">Total</h2>
                     <div class="row pad-top-20">
-                      <div class="col-md-6"> 
+                      <div class="col-lg-6 col-md-6 col-6"> 
                         <h3 class="news-font no-margin">Subtotal</h3>
                       </div>
-                      <div class="col-md-6"> 
+                      <div class="col-lg-6 col-md-6 col-6"> 
                         <h4 class="no-margin">$1000</h4>
                       </div>
-                      <div class="col-md-6"> 
+                      <div class="col-lg-6 col-md-6 col-6"> 
                         <h3 class="news-font no-margin">Delivery</h3>
                       </div>
-                      <div class="col-md-6"> 
+                      <div class="col-lg-6 col-md-6 col-6"> 
                         <h4 class="no-margin"><b>Free</b></h4>
                       </div>
                     </div>
                       <hr class="shipping-dash">
                     <div class="row">
-                      <div class="col-md-6"> 
+                      <div class="col-lg-6 col-md-6 col-8"> 
                         <h3 class="news-font no-margin">Amount To Pay</h3>
                       </div>
-                      <div class="col-md-6"> 
+                      <div class="col-lg-6 col-md-6 col-4"> 
                         <h4 class="no-margin">$1000</h4>
                       </div>
                       <div class="col-md-12 pad-top-50"> 

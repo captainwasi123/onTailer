@@ -101,7 +101,7 @@
                   <h3 class="no-margin news-font pad-top-30">RECOVER PASSWORD</h3>
                 </div>                
               </div>
-              <div class="col-md-8">
+              <div class="col-lg-8 col-md-12 col-12">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <div class="forget-section2 pad-top-70 pad-left-30 pad-right-60">
                   <p class="no-margin news-font pad-bot-50">If you forgot your password, Enter your E-mail and we will send you a message with the instructions to reset your password.</p>

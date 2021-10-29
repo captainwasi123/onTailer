@@ -7,10 +7,11 @@
 <script src="{{URL::to('/public/website')}}/js/custom.js" type="text/javascript" charset="utf-8"></script>
 <script src="{{URL::to('/public/website')}}/js/slick-slider.js"> </script>
 <script src="{{URL::to('/public/website')}}/js/functions.js"> </script>
-<script src='https://unpkg.com/xzoom/dist/xzoom.min.js'></script>
-  <script src='https://hammerjs.github.io/dist/hammer.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js'></script>
-  <script type="text/javascript">  
+<!-- <script src='https://unpkg.com/xzoom/dist/xzoom.min.js'></script>
+<script src='https://hammerjs.github.io/dist/hammer.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js'></script> -->
+<!-- 
+<script type="text/javascript">  
 (function ($) {
     $(document).ready(function() {
         $('.xzoom, .xzoom-gallery').xzoom({zoomWidth: 400, title: true, tint: '#333', Xoffset: 15});
@@ -161,4 +162,4 @@
         }
     });
 })(jQuery);
-</script>
+</script> -->

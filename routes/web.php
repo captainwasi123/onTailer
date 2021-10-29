@@ -58,6 +58,5 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/add-to-cart', 'mainController@addtocart')->name('addtocart');
 		Route::get('/standard-size', 'mainController@standardsize')->name('standardsize');
 		Route::get('/manual-measurements', 'mainController@manualmeasurements')->name('manualmeasurements');
-	
-
+		
 	});

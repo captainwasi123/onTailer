@@ -11,45 +11,15 @@
     </div>    
   </section>
 <!-- section close -->
-<style type="text/css">
-  .payment-method-label
-  {
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 33px;
-    letter-spacing: 0.05em;
-  }
-  .payment-method-section-input {
-    border: 1px solid black;
-    padding: 10px 160px 10px 16px;
-    outline: none;
-}
-.payment-method-section-inner1 span {
-    position: absolute;
-    left: 25%;
-    top: 53.5%;
-    font-size: 18px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    color:#044372;
-}
-.payment-method-section-btn {
-    background: #F0F0F0;
-    border: none;
-    padding: 8px 32px;
-    color: black;
-    font-size: 20px;
-    /* line-height: 16px;
-}
-</style>
+
 <!-- section1 start -->
   <section>
     <div class="container-fluid custom-gird-website pad-bot-200">
       <div class="row">
-        <div class="col-md-12 pad-top-60">
+        <div class="col-lg-12 col-md-12 col-12 payment-method-head pad-top-60">
           <form action="#" method="post">
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-lg-12 col-md-12 col-12">
                 <form>
                   <div class="payment-method-section">
                     <input type="radio" id="radio1" name="example2">
