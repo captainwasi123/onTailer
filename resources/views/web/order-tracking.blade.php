@@ -8,14 +8,21 @@
     <div class="row">
       <div class="col-lg-12 col-md-12 col-12 col-sm-12 order-tracking" style="border: 1px solid #D9D7D7;">
         <div class="row">
-          <div class="col-lg-1 col-md-3 col-5 col-sm-12">
+          <div class="col-lg-1 col-md-3 col-4 col-sm-12">
             <img src="{{URL::to('/public/website')}}/images/order-1.png">      
           </div>
-          <div class="col-lg-2 col-md-7 col-7 col-sm-12">
+          <div class="col-lg-2 col-md-7 col-8 col-sm-12">
             <div class="cancel-order-section2">
               <h2 class="no-margin news-font">SLIM FIT STRIPED COMFORT SHIRT</h2>
               <h3 class="no-margin news-font">Cotton</h3>
               <h4>₹ 1000</h4>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 col-12 col-sm-12 mobile">
+            <div class="order-tracking-section">
+              <h2 class="no-margin news-font pad-bot-10 pad-top-10" style="text-align: left;"><img src="{{URL::to('/public/website')}}/images/green-dot.png"> &nbsp;Delivery expected by nov 5</h2>
+              <!-- <a class="order-tracking-btn news-font"><i class="fa fa-file-pdf-o"></i> DOWNLOAD INVOICE</a>
+              <a class="order-tracking-btn1 news-font m-t-20">CANCEL ORDER</a> -->
             </div>
           </div>
           <div class="col-lg-7 col-md-12 col-12 col-sm-12">
@@ -49,9 +56,16 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-2 col-md-12 col-12 col-sm-12">
+          <div class="col-lg-2 col-md-12 col-12 col-sm-12 desktop">
             <div class="order-tracking-section">
               <h2 class="no-margin news-font pad-bot-10"><img src="{{URL::to('/public/website')}}/images/green-dot.png"> &nbsp;Delivery expected by nov 5</h2>
+              <a class="order-tracking-btn news-font"><i class="fa fa-file-pdf-o"></i> DOWNLOAD INVOICE</a>
+              <a class="order-tracking-btn1 news-font m-t-20">CANCEL ORDER</a>
+            </div>
+          </div> 
+          <div class="col-lg-2 col-md-12 col-12 col-sm-12 mobile">
+            <div class="order-tracking-section">
+              <!-- <h2 class="no-margin news-font pad-bot-10"><img src="{{URL::to('/public/website')}}/images/green-dot.png"> &nbsp;Delivery expected by nov 5</h2> -->
               <a class="order-tracking-btn news-font"><i class="fa fa-file-pdf-o"></i> DOWNLOAD INVOICE</a>
               <a class="order-tracking-btn1 news-font m-t-20">CANCEL ORDER</a>
             </div>

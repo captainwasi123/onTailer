@@ -256,10 +256,8 @@
       </div>
 
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-11">
-            <div class="seller-grid2 arrow-style2">
+        <div class="slide7-3">
+          <div class="seller-grid2 arrow-style2">
               <div class="seller-box2">
                 <img alt="product-image" src="{{URL::to('/public/website')}}/images/new-launch.jpg"/>
                 <div class="seller-box-hover">
@@ -297,7 +295,6 @@
                 </div>
               </div>
             </div>
-          </div>   
         </div>
       </div>
     </div>

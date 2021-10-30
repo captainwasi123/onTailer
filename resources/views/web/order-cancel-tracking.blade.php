@@ -50,6 +50,18 @@ li.step:nth-child(2) {
 }
 
 }
+@media screen and (max-width:519px) and (min-width:320px) { 
+.bs4-order-tracking li:first-child:after {
+    left: 13% !important;
+}
+.bs4-order-tracking li {
+    width: 70%;
+}
+li.step:nth-child(2) {
+    width: 90px;
+}
+
+}
 </style>
 <!-- section1 start -->
 <section>
@@ -57,10 +69,10 @@ li.step:nth-child(2) {
     <div class="row">
       <div class="col-lg-12 col-md-12 col-12 col-sm-12 order-tracking" style="border: 1px solid #D9D7D7;">
         <div class="row">
-          <div class="col-lg-1 col-md-2 col-12 col-sm-12">
+          <div class="col-lg-1 col-md-2 col-4 col-sm-12">
             <img src="{{URL::to('/public/website')}}/images/order-1.png">      
           </div>
-          <div class="col-lg-3 col-md-3 col-12 col-sm-12">
+          <div class="col-lg-3 col-md-3 col-8 col-sm-12">
             <div class="cancel-order-section2">
               <h2 class="no-margin news-font">SLIM FIT STRIPED <br> COMFORT SHIRT</h2>
               <h3 class="no-margin news-font">Cotton</h3>

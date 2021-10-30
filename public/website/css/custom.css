@@ -873,6 +873,12 @@ hr.slide5-line {
     margin: 0 auto;
     padding-bottom: 30px;
 }
+.slide7-3 {
+    width: 100%;
+    max-width: 97%;
+    margin: 0 auto;
+    float: none;
+}
 hr.slide5-bor {
     background: black;
     width: 20%;
@@ -3294,23 +3300,36 @@ button.close {
     padding-top: 10px !important;
 }
 .order-btn1 {
-    font-size: 18px;
+    /*font-size: 18px;
     padding: 10px 43px;
-    width: 100%;
+    width: 100%;*/
+    font-size: 13px;
+    padding: 3px 5px;
+    margin-bottom: 0px !important;
 }
 .order-btn2 {
-    font-size: 18px;
-    padding: 10px 20px;
-    width: 100%;
+    /*font-size: 18px;
+    padding: 10px 20px;*/
+    font-size: 13px;
+    padding: 3px 5px;
+ /*   width: 100%;*/
 }
 .measurement-section-3 {
-    padding-left: 15px;
-    padding-bottom: 25px;
+    /*padding-left: 15px;*/
+    padding-left: 0px;
+    padding-bottom: 15px;
 }
 .measurement-section-3 h3 {
-    font-size: 22px;
-    line-height: 25px;
-    padding-top: 15px;
+    font-size: 18px;
+    line-height: 20px;
+/*    padding-top: 15px;*/
+}
+.measurement-section-3 h4 {
+    font-size: 16px;
+}
+.measurement-section-3 h2 {
+    font-size: 15px;
+    line-height: 20px;
 }
 .ai-table tr th {
     font-size: 16px;
@@ -3364,7 +3383,7 @@ li.step span {
     padding: 10px;
 }
 .bs4-order-tracking {
-    padding: 25px 0px;
+    padding: 0px 0px;
     margin: 0px !important;
 }
 .cancel-order {
@@ -3379,5 +3398,40 @@ li.step span {
 .cancel-order1 {
     padding: 30px 0px 30px 0px;
 }
-
+.measurement-section2 {
+    padding: 10px 10px !important;
+}
+.order-tracking-btn1{
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+}
+.order-tracking-btn {
+    font-size: 13px;
+    margin-right: 13px;
+}
+.order-tracking-btn1 {
+    padding: 0px 12px;
+    font-size: 13px;
+}
+.cancel-order-section h3 {
+    font-size: 13px;
+    text-align: left;
+}
+.accordion-section .panel-default > .panel-heading {
+    padding: 0px 0px;
+}
+.cancel-order-textarea{
+    margin-top: 10px !important;
+}
+.cancel-order-btn {
+    float: left;
+}
+.cancel-order-section1 h3 {
+    font-size: 15px;
+    line-height: 20px;
+}
+.card-timeline hr {
+    width: 100% !important;
+    margin: 6px 0px;
+}
 }

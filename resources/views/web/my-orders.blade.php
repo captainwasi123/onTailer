@@ -19,10 +19,10 @@
         <div class="col-lg-12 col-md-12 col-sm-12">
           <div class="measurement-section2 pad-top-20 pad-bot-20 pad-left-20 pad-right-20">
             <div class="row">
-              <div class="col-lg-1 col-md-3 col-sm-1 ">
+              <div class="col-lg-1 col-md-3 col-sm-1 col-4 ">
                 <img src="{{URL::to('/public/website')}}/images/order-1.png">
               </div>
-              <div class="col-lg-7 col-md-5 col-sm-6 col-xs-4 no-pad">
+              <div class="col-lg-7 col-md-5 col-sm-6 col-8 col-xs-4 no-pad">
                 <div class="measurement-section-3">
                   <h3 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h3>
                   <h4 class="no-margin news-font">Cotton</h4>
@@ -45,10 +45,10 @@
         <div class="col-lg-12 col-md-12 col-sm-12 pad-top-30">
           <div class="measurement-section2 pad-top-20 pad-bot-20 pad-left-20 pad-right-20">
             <div class="row">
-              <div class="col-lg-1 col-md-3 col-sm-1 ">
+              <div class="col-lg-1 col-md-3 col-sm-1 col-4 ">
                 <img src="{{URL::to('/public/website')}}/images/order-1.png">
               </div>
-              <div class="col-lg-7 col-md-5 col-sm-6 col-xs-4 no-pad">
+              <div class="col-lg-7 col-md-5 col-sm-6 col-8 col-xs-4 no-pad">
                 <div class="measurement-section-3">
                   <h3 class="news-font no-margin">SLIM FIT STRIPED COMFORT SHIRT</h3>
                   <h4 class="no-margin news-font">Cotton</h4>
