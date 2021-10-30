@@ -1,4 +1,4 @@
-<link href="http://fonts.cdnfonts.com/css/trochut" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/trochut" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
