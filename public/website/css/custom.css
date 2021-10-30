@@ -650,10 +650,18 @@ button.btn4 {
     line-height: 19px;
     text-transform: capitalize;
 }
-.slide4
+/*.slide4
 {
   text-align: center;
-  padding-top: 220px;
+  padding-top: 14%;
+}*/
+.slide4 {
+    text-align: center;
+    padding-top: 14%;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    max-width: 100%;
 }
 .slide4-sec1 h2 {
     font-size: 20px;
@@ -680,7 +688,7 @@ hr.slide4-bor {
     max-width: 71%;
     float: none;
     margin: 0 auto;
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
 }
 .seller-box2 h5 {
     text-align: left;
@@ -691,7 +699,7 @@ hr.slide4-bor {
     font-weight: 400;
 }
 .seller-box2.slick-slide.slick-active img {
-  width: 85%;
+  width: 80%;
 }
 .slide4-sec-2 h3
 {

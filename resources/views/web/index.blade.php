@@ -57,25 +57,25 @@
   <!-- slider 3 close -->
 
   <!-- slider 4 start -->
-  <div class="section no-pad">
-    <div class="slide4">
-      <div class="container-fluid">
-        <div class="slide4-1">
+  <div class="section slider4 no-pad">
+    <div class="container-fluid">
+      <div class="slide4">
+        <div class="slide4-1 pad-bot-40">
           <div class="row">
             <div class="col-md-3 mobile-hide"></div>
+            <div class="col-md-1 mobile-hide"><hr class="slide4-bor"></div>
+              <div class="col-md-4">
+                <div class="slide4-sec1">
+                  <h2 class="abril-font no-margin">WE’VE SOMETHING FOR EVERYONE</h2>
+                </div>           
+              </div>
               <div class="col-md-1 mobile-hide"><hr class="slide4-bor"></div>
-                <div class="col-md-4">
-                  <div class="slide4-sec1">
-                    <h2 class="abril-font no-margin">WE’VE SOMETHING FOR EVERYONE</h2>
-                  </div>           
-                </div>
-                <div class="col-md-1 mobile-hide"><hr class="slide4-bor"></div>
-                <div class="col-md-3 mobile-hide"></div>  
+              <div class="col-md-3 mobile-hide"></div>  
           </div>
         </div>
-      </div>
+      <!-- </div>
 
-      <div class="container-fluid">
+      <div class="container-fluid"> -->
         <div class="row">
           <div class="col-lg-2 col-md-2 col-sm-2 col-4">
             <div class="slide4-sec-2">
@@ -112,9 +112,9 @@
             </div>
           </div>          
         </div>
-      </div>
+      <!-- </div>
 
-      <div class="container-fluid ">
+      <div class="container-fluid"> -->
         <div class="row">
           <div class="col-lg-2 col-md-2 col-sm-2 col-4">
             <div class="slide4-sec-2">
@@ -196,7 +196,7 @@
 <!-- slider 6 close -->
 
  <!-- slider 7 start -->
-  <div class="section no-pad">
+  <div class="section slider7 no-pad">
     <div class="slide4">
       <div class="container slide4-main">
         <div class="slide7-1">
