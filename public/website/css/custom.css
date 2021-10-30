@@ -555,7 +555,7 @@ nav.navbar.navbar-inverse {
     max-width: 27%;
 }
 .slide3-inner {
-    background: url(../images/box.png);
+    background: url('{{URL::to("/public/website")}}/images/box.png');
     background-size: 100% 100%;
 }
 .slide3-inner hr {
