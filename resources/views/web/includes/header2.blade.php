@@ -3,19 +3,36 @@
   <nav class="navbar navbar-inverse pad-top-40 pad-bot-30 border-for-other-pages">
     <div class="container-fluid">
       <div class="navbar-header">
-        <div id="sidebar">
-          <div id="togglebtn" onclick="togglesidebar()">
+        <div id="togglebtn" onclick="togglesidebar()">
             <!-- <span></span>
             <span></span>
             <span></span> -->
             <img src="{{URL::to('/public/website')}}/images/humberger.png">
           </div>
+        <div id="sidebar">
+<style type="text/css">
+  .nested-menu a {
+    display: block;
+    padding-left: 35px;
+}
+.nested-menu {
+    display: none;
+}
+.sub-menu ul li:hover .nested-menu
+{
+  display: block;
+}
+</style>
             <ul class="main-menu pad-top-40 main-menu-custom">
                 <li> <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Home</a></li>
                 <li> <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Shop</a>
                   <div class="sub-menu">
                     <ul class="pad-top-40">
-                      <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Men</a></li>
+                      <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Men</a>
+                      <div class="nested-menu">
+                            <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Women</a>
+                            <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Men</a>                  
+                        </div></li>
                       <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Women</a></li>
                     </ul>
                   </div>
@@ -23,7 +40,10 @@
                 <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Get Measured</a>
                 <div class="sub-menu">
                     <ul class="pad-top-40">
-                      <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Men</a></li>
+                      <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Men</a>
+
+
+                      </li>
                       <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Women</a></li>
                     </ul>
                   </div>

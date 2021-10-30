@@ -31,17 +31,22 @@
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="measurement-btn">
-                  <button type="button" class="btn order-btn1 news-font m-b-20 order-drop-view" onclick="orderDropdown()">VIEW ORDER DETAILS</button>
-                  <div id="order-drop" class="order-drop order-drop-view-content">
-                    <a href="#" class="roboto-font">View Selected Customization</a>
-                    <a href="#">View Measurements</a>
-                  </div>
+                  <div class="drop-menu-measure">
+                    <button type="button" class="btn order-btn1 news-font m-b-20 order-drop-view" onclick="orderDropdown()">VIEW ORDER DETAILS</button>
+                    <div id="order-drop" class="order-drop order-drop-view-content">
+                      <a href="#" class="roboto-font">View Selected Customization</a>
+                      <a href="#">View Measurements</a>
+                    </div>
+                  </div> 
+
+                  
                   <button type="button" class="btn order-btn2 news-font">TRACK ORDER STATUS</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <div class="col-lg-12 col-md-12 col-sm-12 pad-top-30">
           <div class="measurement-section2 pad-top-20 pad-bot-20 pad-left-20 pad-right-20">
             <div class="row">
@@ -57,13 +62,42 @@
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="measurement-btn">
-                  <button type="button" class="btn order-btn1 news-font m-b-20 order-drop-view" onclick="orderDropdown()">VIEW ORDER DETAILS</button>
-                  <div id="order-drop" class="order-drop order-drop-view-content">
-                    <a href="#" class="roboto-font">View Selected Customization</a>
-                    <a href="#">View Measurements</a>
-                  </div>
-                  <button type="button" class="btn order-btn2 news-font">TRACK ORDER STATUS</button>
+                    <div class="dropdown drop-menu-measure">
+                      <button class="btn dropdown-toggle order-btn1 news-font m-b-20" type="button" data-toggle="dropdown">VIEW ORDER DETAILS</button>
+                      <div class="dropdown-menu order-drop order-drop-view-content">
+                        <a href="#">View Selected Customization</a>
+                        <a href="#">View Measurements</a>
+                      </div>
+                    </div>
+                    <div>
+                      <button type="button" class="btn order-btn2 news-font">TRACK ORDER STATUS</button>
+                    </div>
+                  
                 </div>
+<style type="text/css">
+.drop-menu-measure {
+    position: relative;
+    width: 100%;
+}
+.order-btn1
+{
+  width:80%;
+}
+</style>
+                <!-- <div class="measurement-btn">
+                  <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                      Dropdown button
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn order-btn2 news-font">TRACK ORDER STATUS</button> -->
+
               </div>
             </div>
           </div>
@@ -74,21 +108,21 @@
 <!-- section1 close -->
 
 <script>
-function orderDropdown() {
-  document.getElementById("order-drop").classList.toggle("show");
-}
+// function orderDropdown() {
+//   document.getElementById("order-drop").classList.toggle("show");
+// }
 
-window.onclick = function(event) {
-  if (!event.target.matches('.order-drop-view')) {
-    var dropdowns = document.getElementsByClassName("order-drop-view-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+// window.onclick = function(event) {
+//   if (!event.target.matches('.order-drop-view')) {
+//     var dropdowns = document.getElementsByClassName("order-drop-view-content");
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains('show')) {
+//         openDropdown.classList.remove('show');
+//       }
+//     }
+//   }
+// }
 </script>
 @endsection

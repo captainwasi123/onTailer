@@ -8,9 +8,9 @@
     <div class="men-shop-section1">
       <div class="row">
         <div class="col-lg-7 col-md-7 col-12 col-sm-12">
-          <div class="xzoom-container">            
-            <img class="xzoom order-lg-1" id="xzoom-default" src="{{URL::to('/public/website')}}/images/single-shop.jpg" xoriginal="{{URL::to('/public/website')}}/images/single-shop2.jpg" />
-            <div class="xzoom-thumbs xzoom-thumbs-all">
+          <div class="xzoom-container ">
+              <img class="xzoom order-lg-2 order-2" id="xzoom-default" src="{{URL::to('/public/website')}}/images/single-shop.jpg" xoriginal="{{URL::to('/public/website')}}/images/single-shop2.jpg" />
+            <div class="xzoom-thumbs xzoom-thumbs-all order-1">
               <a href="{{URL::to('/public/website')}}/images/single-shop2.jpg"><img class="xzoom-gallery" width="80" src="{{URL::to('/public/website')}}/images/single-shop2.jpg"  xpreview="images/single-shop.jpg"></a>
               <a href="{{URL::to('/public/website')}}/images/single-shop2.jpg"><img class="xzoom-gallery" width="80" src="{{URL::to('/public/website')}}/images/single-shop.jpg" ></a>
               <a href="{{URL::to('/public/website')}}/images/single-shop2.jpg"><img class="xzoom-gallery" width="80" src="{{URL::to('/public/website')}}/images/single-shop.jpg" ></a>

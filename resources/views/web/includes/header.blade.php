@@ -3,14 +3,11 @@
   <nav class="navbar navbar-inverse pad-top-40 pad-bot-30">
     <div class="container-fluid">
       <div class="navbar-header">
-        <div id="sidebar">
-          <div id="togglebtn" onclick="togglesidebar()">
-            <!-- <span></span>
-            <span></span>
-            <span></span> -->
-            
+        <div id="togglebtn" onclick="togglesidebar()">            
             <img src="{{URL::to('/public/website')}}/images/humberger.png">
           </div>
+        <div id="sidebar">
+          
             <ul class="main-menu pad-top-40 main-menu-custom">
                 <li> <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Home</a></li>
                 <li> <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Shop</a>

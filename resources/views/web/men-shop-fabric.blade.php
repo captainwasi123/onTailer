@@ -276,8 +276,9 @@ if (screen.width <= 767) {
       <div class="row">
         <div class="col-lg-10 col-md-12 col-12 col-sm-12">
           <div class="xzoom-container xzoom-custom">            
-            <img class="xzoom zoom-main-image order-lg-1" id="xzoom-default" src="{{URL::to('/public/website')}}/images/fabric.jpg" xoriginal="{{URL::to('/public/website')}}/images/fabric2.jpg" />
-            <div class="xzoom-thumbs xzoom-section">
+            <img class="xzoom zoom-main-image order-lg-3 order-3" id="xzoom-default" src="{{URL::to('/public/website')}}/images/fabric.jpg" xoriginal="{{URL::to('/public/website')}}/images/fabric2.jpg" />
+            
+            <div class="xzoom-thumbs xzoom-section order-lg-1 order-1">
               <a href="{{URL::to('/public/website')}}/images/fabric2.jpg">
               	<img class="xzoom-gallery xzoom-custom-gallery no-margin" width="80" src="{{URL::to('/public/website')}}/images/fabric.jpg">
               	<div class="row no-margin pad-top-10 pad-bot-30 xzoom-sec-for-mobile">
@@ -328,7 +329,7 @@ if (screen.width <= 767) {
               	</div>
               </a>
             </div>
-            <div class="xzoom-thumbs xzoom-section m-r-50">
+            <div class="xzoom-thumbs xzoom-section order-lg-2 order-2 m-r-50">
               <a href="{{URL::to('/public/website')}}/images/fabric2.jpg">
               	<img class="xzoom-gallery xzoom-custom-gallery no-margin" width="80" src="{{URL::to('/public/website')}}/images/fabric.jpg">
               	<div class="row no-margin pad-top-10 pad-bot-30 xzoom-sec-for-mobile">
@@ -379,6 +380,7 @@ if (screen.width <= 767) {
               	</div>
               </a>
             </div>
+    
             <i class="fa fa-search"></i>          
           </div>
         </div>
