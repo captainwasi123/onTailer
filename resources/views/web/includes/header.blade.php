@@ -13,8 +13,53 @@
                 <li> <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Shop</a>
                   <div class="sub-menu">
                     <ul class="pad-top-40">
-                      <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Men</a></li>
-                      <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Women</a></li>
+                      <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Men</a>
+                        <div class="nested-menu">
+                            <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Formal
+                              <div class="inner-nested-menu">
+                                <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Shirts</a>
+                                <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Trousers</a>
+                                <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Blazers</a>
+                              </div>
+                            </a>
+                            <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Casual
+                              <div class="inner-nested-menu">
+                                <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Shirts</a>
+                                <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Jeans</a>
+                              </div>
+                            </a>
+                            <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ethnic
+                              <div class="inner-nested-menu">
+                                <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Kurtas</a>
+                                <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Pyjamas</a>
+                              </div>
+                            </a>
+                          </div>
+                        </li>
+                      <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Women</a>
+                        <div class="nested-menu">
+                          <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Formal
+                          <div class="inner-nested-menu">
+                              <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Shirts</a>
+                              <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Trousers</a>
+                              <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Blazers</a>
+                            </div>
+                          </a>
+                          <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Casual
+                            <div class="inner-nested-menu">
+                              <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Shirts</a>
+                              <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Dresses</a>
+                              <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Jeans</a>
+                            </div>
+                          </a>
+                          <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ethnic
+                            <div class="inner-nested-menu">
+                              <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Kurtis</a>
+                              <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Plazzos</a>
+                            </div>
+                          </a>
+                        </div>
+                      </li>
                     </ul>
                   </div>
                 </li>
@@ -33,7 +78,7 @@
             <ul class="main-menu pad-top-40 main-menu-custom menu-bottom">
                 <li> <a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Quick Links</a>
                 <div class="sub-menu">
-                    <ul class="pad-top-40 " style="padding-left: 0px;">
+                    <ul class="pad-top-40 " style="padding-left: 10px;">
                       <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> About Us</a></li>
                       <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Fit Guarantee</a></li>
                       <li><a href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i> Alteration & Return Policy</a></li>

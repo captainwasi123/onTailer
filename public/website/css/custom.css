@@ -346,6 +346,26 @@ section , header , footer {
   font-size: 36px;
   margin-left: 50px;
 }
+.nested-menu a {
+    display: block;
+    padding-left: 35px;
+}
+.nested-menu {
+    display: none;
+}
+.sub-menu ul li:hover .nested-menu
+{
+  display: block;
+}
+
+.inner-nested-menu {
+    display: none;
+}
+.sub-menu ul li .nested-menu:hover .inner-nested-menu
+{
+  display: block;
+  padding-left: 35px;
+}
 .main-menu-custom {
     list-style: none;
     padding: 0px;
@@ -1580,10 +1600,17 @@ table{
     font-size: 22px;
     border: 1px solid #000;
 }
-.dropdown a:hover {
-    background-color: #000;
-    color: white;
-    border: 1px solid #000;
+.drop-menu-measure {
+    position: relative;
+    width: 100%;
+}
+.order-btn1
+{
+  width:80%;
+}
+.dropdown-toggle::after
+{
+  display: none;
 }
 .show {display: block;}
 .men-shop-section1{
@@ -2209,6 +2236,7 @@ label.radio-inline span {
 .order-drop-view-content a:hover {
   background:black;
   color: white;
+  /*border-bottom: 1px solid #c4c4c4 !important;*/
 }
 .show {display: block;}
 .measurement-section-3 h4{

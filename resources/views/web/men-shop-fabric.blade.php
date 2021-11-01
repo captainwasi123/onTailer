@@ -143,19 +143,9 @@ if (screen.width <= 767) {
                                       <input type="checkbox">
                                       <span class="checkmark"></span>
                                   </label>
-                                </div>
-	                      				<!-- <div class="col-md-6 no-pad">
-	                      					<label class="my no-margin">COTTON BLEND
-												<input type="checkbox">
-												<span class="checkmark"></span>
-											</label>                      				
-											<label class="my no-margin">TENCEL
-												<input type="checkbox">
-												<span class="checkmark "></span>
-											</label>
-	                      				</div>  -->                     				
+                                </div>                   				
 	                      			</div>
-								</div>
+								            </div>
 	                      	</div>
 	                    </div>
 	                </div>
@@ -173,38 +163,28 @@ if (screen.width <= 767) {
 	                      	<div class="material-section">
 	                      		<div class="row">
 	                      			<div class="col-md-6">
-					                    <label class="my">PLAIN
-                                <input type="checkbox" checked="checked">
-											          <span class="checkmark"></span>
-										          </label>
-										          <label class="my">STRIPPED
-											          <input type="checkbox">
-											           <span class="checkmark"></span>
-										          </label>
-									         </div>
-                           <div class="col-md-6">
-                              <label class="my">CHECKED
-                                <input type="checkbox" checked="checked">
-                                <span class="checkmark"></span>
-                              </label>
-                              <label class="my">DOTTED
-                                <input type="checkbox">
-                                 <span class="checkmark"></span>
-                              </label>
-                           </div>
-	                      			<!-- <div class="col-md-6 no-pad">
-										<label class="my">CHECKED
-											 <input type="checkbox">
-											 <span class="checkmark"></span>
-										</label>
-										<label class="my">DOTTED
-											 <input type="checkbox">
-											 <span class="checkmark"></span>
-										</label>
-									</div> -->
-								</div>
+  					                    <label class="my">PLAIN
+                                  <input type="checkbox" checked="checked">
+  											          <span class="checkmark"></span>
+  										          </label>
+  										          <label class="my">STRIPPED
+  											          <input type="checkbox">
+  											           <span class="checkmark"></span>
+  										          </label>
+									            </div>
+                              <div class="col-md-6">
+                                <label class="my">CHECKED
+                                  <input type="checkbox" checked="checked">
+                                  <span class="checkmark"></span>
+                                </label>
+                                <label class="my">DOTTED
+                                  <input type="checkbox">
+                                  <span class="checkmark"></span>
+                                </label>
+                               </div>
+								            </div>
 	                      	</div>
-	                    </div>
+	                      </div>
                   	</div>
                 </div>
 
@@ -239,16 +219,6 @@ if (screen.width <= 767) {
                                     <span class="checkmark"></span>
                                   </label>
                                 </div>
-										<!-- <div class="col-md-6 no-pad">
-											<label class="my">TWILL
-											  	<input type="checkbox">
-											  	<span class="checkmark"></span>
-											</label>
-											<label class="my">FLANNEL
-											  	<input type="checkbox">
-											  	<span class="checkmark"></span>
-											</label>
-		                      			</div> -->
 		                  			</div>
 	                    		</div>
 	                  		</div>
@@ -256,7 +226,7 @@ if (screen.width <= 767) {
               		</div>
               	</div>
             </section>
-		</div>
+		    </div>
       </div>
   </div>
 </div>
