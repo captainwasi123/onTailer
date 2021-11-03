@@ -8,7 +8,8 @@
 
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"/> -->
-
+<link rel="stylesheet" type="text/css" href="{{URL::to('/public/website')}}/css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="{{URL::to('/public/website')}}/css/slick-theme.css"/>
 <link rel="stylesheet" type="text/css" href="{{URL::to('/public/website')}}/css/custom.css">
 <link rel="stylesheet" type="text/css" href="{{URL::to('/public/website')}}/css/custom2.css">
 <!-- <link rel="stylesheet" type="text/css" href="{{URL::to('/public/website')}}/css/slick.css"/>

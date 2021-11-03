@@ -10,6 +10,8 @@
 <script src='https://unpkg.com/xzoom/dist/xzoom.min.js'></script>
 <script src='https://hammerjs.github.io/dist/hammer.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js'></script>
+<script src="{{URL::to('/public/website')}}/js/slick-slider.js"> </script>
+<script src="{{URL::to('/public/website')}}/js/functions.js"> </script>
 <script type="text/javascript">  
 (function ($) {
     $(document).ready(function() {
