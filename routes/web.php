@@ -60,3 +60,51 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/manual-measurements', 'mainController@manualmeasurements')->name('manualmeasurements');
 		
 	});
+
+	Route::prefix('admin')->namespace('admin')->group(function(){
+
+
+		Route::get('/', 'adminController@index')->name('admin.index');
+
+		Route::prefix('customization')->group(function(){
+
+		// Route::get('/', 'adminController@index')->name('admin.index');
+
+
+			// men customize
+			Route::prefix('men')->group(function(){
+
+			Route::get('/blazer', 'CustomizeController@menblazer')->name('customization.men.blazer');
+			Route::get('/jeans', 'CustomizeController@menjeans')->name('customization.men.jeans');
+			Route::get('/kurta', 'CustomizeController@menkurta')->name('customization.men.kurta');
+			Route::get('/pyjama', 'CustomizeController@menpyjama')->name('customization.men.pyjama');
+			Route::get('/tshirt', 'CustomizeController@mentshirt')->name('customization.men.tshirt');
+			Route::get('/trouser', 'CustomizeController@mentrouser')->name('customization.men.trouser');
+
+
+
+
+
+			});
+
+			// women customize
+			Route::prefix('women')->group(function(){
+
+			Route::get('/blazer', 'CustomizeController@womenblazer')->name('customization.women.blazer');
+			Route::get('/jeans', 'CustomizeController@womenjeans')->name('customization.women.jeans');
+			Route::get('/kurti', 'CustomizeController@womenkurti')->name('customization.men.kurti');
+			Route::get('/shirt', 'CustomizeController@womenshirt')->name('customization.wommen.shirt');
+			Route::get('/trouser', 'CustomizeController@womentrouser')->name('customization.women.trouser');
+			Route::get('/dresses', 'CustomizeController@womendresses')->name('customization.men.dresses');
+
+
+
+
+
+
+			});
+
+		});
+
+
+	});

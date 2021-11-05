@@ -6,7 +6,7 @@
   
   @include('web.includes.style')
   @yield('addStyle')
-
+ 
 </head>
 <body>
 
