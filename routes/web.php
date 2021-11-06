@@ -63,17 +63,34 @@ use Illuminate\Support\Facades\Route;
 
 	Route::prefix('admin')->namespace('admin')->group(function(){
 
+		//AuthController
+		Route::get('/', 'AuthController@login')->name('admin.adminlogin');
 
-		Route::get('/', 'adminController@index')->name('admin.index');
+		//admin 
+		Route::get('/index', 'adminController@index')->name('admin.index');
 
 		Route::prefix('customization')->group(function(){
 
-		// Route::get('/', 'adminController@index')->name('admin.index');
+		Route::get('/addcustompart', 'CustomizeController@addcustompart')->name('admin.customization.add-custom-part');
+		Route::get('/', 'CustomizeController@customization')->name('admin.customization.customization');
+
+
+
 
 
 			// men customize
 			Route::prefix('men')->group(function(){
 
+			// add
+			Route::get('/addblazer', 'CustomizeController@addMenblazer')->name('customization.men.add-blazer');
+			Route::get('/addharem', 'CustomizeController@addMenharem')->name('customization.men.add-harem');
+			Route::get('/addjeans', 'CustomizeController@addMenjeans')->name('customization.men.add-jeans');
+			Route::get('/addkurta', 'CustomizeController@addMenkurta')->name('customization.men.add-kurta');
+			Route::get('/addshirt', 'CustomizeController@addMenshirt')->name('customization.men.add-shirt');	
+			Route::get('/addtrouser', 'CustomizeController@addMentrouser')->name('customization.men.add-trouser');			
+
+
+			// view 
 			Route::get('/blazer', 'CustomizeController@menblazer')->name('customization.men.blazer');
 			Route::get('/jeans', 'CustomizeController@menjeans')->name('customization.men.jeans');
 			Route::get('/kurta', 'CustomizeController@menkurta')->name('customization.men.kurta');
@@ -82,14 +99,20 @@ use Illuminate\Support\Facades\Route;
 			Route::get('/trouser', 'CustomizeController@mentrouser')->name('customization.men.trouser');
 
 
-
-
-
 			});
 
 			// women customize
 			Route::prefix('women')->group(function(){
 
+			//add
+			Route::get('/addblazer', 'CustomizeController@addwomenblazer')->name('customization.women.add-blazer');
+			Route::get('/adddresses', 'CustomizeController@addwomendresses')->name('customization.women.add-dresses');
+			Route::get('/addjeans', 'CustomizeController@addwomenjeans')->name('customization.women.add-jeans');
+			Route::get('/addkurti', 'CustomizeController@addwomenkurti')->name('customization.women.add-kurti');
+			Route::get('/addshirt', 'CustomizeController@addwomenshirt')->name('customization.women.add-shirt');	
+			Route::get('/addtrouser', 'CustomizeController@addwomentrouser')->name('customization.women.add-trouser');			
+
+			// view
 			Route::get('/blazer', 'CustomizeController@womenblazer')->name('customization.women.blazer');
 			Route::get('/jeans', 'CustomizeController@womenjeans')->name('customization.women.jeans');
 			Route::get('/kurti', 'CustomizeController@womenkurti')->name('customization.men.kurti');
@@ -97,14 +120,35 @@ use Illuminate\Support\Facades\Route;
 			Route::get('/trouser', 'CustomizeController@womentrouser')->name('customization.women.trouser');
 			Route::get('/dresses', 'CustomizeController@womendresses')->name('customization.men.dresses');
 
-
-
-
-
-
 			});
 
 		});
 
+		Route::prefix('fabric')->group(function(){
+
+		Route::get('/', 'FabricController@fabric')->name('fabric.fabric');
+
+		Route::prefix('measurement')->group(function(){
+
+		Route::get('/ai-measurement', 'MeasurementController@Aimeasurement')->name('fabric.measurement.ai-measurement');
+		Route::get('/manual-measurement', 'MeasurementController@Manualmeasurement')->name('fabric.measurement.manual-measurement');
+		Route::get('/standard-measurement', 'MeasurementController@Standmeasurement')->name('fabric.measurement.standard-measurement');
+
+		});
+
+
+		});
+ 
+		Route::prefix('products')->group(function(){
+
+			Route::get('/', 'ProductController@product')->name('products.product');
+
+		});	
+
+		Route::prefix('discount')->group(function(){
+
+			Route::get('/', 'DiscountController@discount')->name('discount.discount');
+
+		});	
 
 	});

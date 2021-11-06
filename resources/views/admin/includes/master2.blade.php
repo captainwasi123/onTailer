@@ -3,18 +3,19 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      
     <title> @yield('title') | {{env('APP_NAME')}} </title>
-      @include('admin.includes.style')
+      @include('admin.includes.style2')
       @yield('addStyle')
    </head>
    <body>
       <!-- Header Section Starts Here -->
-      	@include('admin.includes.header')
+      	<!-- @include('admin.includes.header') -->
       <!-- Header Section Ends Here -->
       <!-- All Content Section Starts Here -->
-      <section class="all-content">
+      <section class="login-wrapper">
          <!-- Left Sidebar Starts Here -->
-         	@include('admin.includes.sidebar')
+       <!--   	@include('admin.includes.sidebar') -->
          <!-- Left Sidebar Ends Here -->
          <!-- Main Content Section Starts Here -->
          	@yield('content')
