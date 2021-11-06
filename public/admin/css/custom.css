@@ -1147,6 +1147,67 @@ span.sale-price {
 }
 
 
+#accordion .panel {
+    padding: 0px 35px;
+}
+
+#accordion .panel .panel-heading>a {
+    position: relative;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    display: block;
+    padding: 10px 0px 10px 42px;
+}
+
+#accordion .panel .panel-heading>a img {
+    position: absolute;
+    left: 0px;
+    top: 20%;
+} 
+.sub-drop-menu {
+    display: block;
+}
+
+.sub-drop-menu ul {
+    padding: 0px;  
+      margin: 0px !important;
+}
+.sub-drop-menu ul li {
+    padding: 0px !important;
+    margin-bottom: 5px !important;
+}
+
+.sub-drop-menu ul li a {
+    padding: 0px 0px 0px 40px !important;
+    font-size: 15px;
+    position: relative;
+}
+.sub-drop-menu ul li a svg {
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    left: 22px;
+    font-size: 16px;
+}
+
+#accordion .panel .panel-heading>a:hover , .sub-drop-menu ul li a:hover {
+color:#044372 !important;
+}
+#accordion .panel .panel-heading {
+    margin-bottom: 2px;
+}
+
+#accordion .panel .panel-heading>a svg {
+    position: absolute;
+    right: 0px;    
+    top: 35%;
+}
+
+div#accordion {
+    padding: 15px 0px 0px 0px;
+}
 
 /*Media Queries Of Website*/
 
@@ -1470,5 +1531,8 @@ section.all-content {
 .modal-dialog {
     top: 20px !important;
     transform: none !important;
+}
+div#accordion {
+    padding: 0px 0px 0px 0px;
 }
 }
