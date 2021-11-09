@@ -1181,14 +1181,14 @@ span.sale-price {
 
 .sub-drop-menu ul li a {
     padding: 0px 0px 0px 40px !important;
-    font-size: 15px;
+    font-size: 16px;
     position: relative;
 }
 .sub-drop-menu ul li a svg {
     position: absolute;
-    left: 0px;
+    left: 0px;    
     top: 3px;
-    left: 22px;
+    left: 15px;
     font-size: 16px;
 }
 
@@ -1208,6 +1208,23 @@ color:#044372 !important;
 div#accordion {
     padding: 15px 0px 0px 0px;
 }
+
+
+.nested-drop a {
+    display: block;
+    padding: 0px 0px 0px 55px;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+}
+
+.sub-drop-menu ul li {
+    padding: 0px !important;
+    margin-bottom: 8px !important;
+}
+
+
 
 /*Media Queries Of Website*/
 

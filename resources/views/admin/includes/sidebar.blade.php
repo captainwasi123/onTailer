@@ -53,10 +53,14 @@
             <div id="collapseOne" class="panel-collapse collapse">
                <div class="panel-body">
                   <div class="sub-drop-menu">
-                     <ul>
-                        <li> <a href=""> <i class="fa fa-caret-right"> </i> Sub Menu 1 </a> </li>
-                        <li> <a href=""> <i class="fa fa-caret-right"> </i> Sub Menu 2 </a> </li>
-                        <li> <a href=""> <i class="fa fa-caret-right"> </i> Sub Menu 3 </a> </li>
+                     <ul id="accordion2">
+                        <li> <a href="">   Add  </a> </li>
+                         <li> <a href="">   View </a> </li>
+                        <li> <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"  >   Men  <i class="fa fa-caret-down"> </i> </a>  </li>
+                         <div id="collapseTwo" class="panel-collapse collapse nested-drop">
+                         <a href=""> Add </a>  
+                         <a href=""> View </a>  
+                         </div>
                      </ul>
                   </div>
                </div>
