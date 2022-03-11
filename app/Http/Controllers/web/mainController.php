@@ -8,34 +8,7 @@ use Illuminate\Http\Request;
 class mainController extends Controller
 {
     //
-    function index(){
-
-    	return view('web.index');
-    }
-    function about(){
-
-    	return view('web.about');
-    }
-    function fitgurantee(){
-
-    	return view('web.fit-gurantee');
-    }
-    function shoppingpolicy(){
-
-    	return view('web.shopping-policy');
-    }
-    function alterationreturnpolicy(){
-
-    	return view('web.alteration-return-policy');
-    }
-    function privacypolicy(){
-
-    	return view('web.privacy-policy');
-    }
-    function termsconditions(){
-
-    	return view('web.terms-conditions');
-    }
+   
     function measurementprofile(){
 
     	return view('web.measurement-profile');
@@ -51,10 +24,6 @@ class mainController extends Controller
     function createmeasurementprofile(){
 
     	return view('web.create-measurement-profile');
-    }
-    function contactus(){
-
-    	return view('web.contact-us');
     }
     function paymentcontactus(){
 

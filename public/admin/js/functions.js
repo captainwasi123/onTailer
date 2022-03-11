@@ -6,25 +6,20 @@
  	$('.navbar-handler').click(function(){
 
  		if(val1==0){
- 			$(this).children("svg").toggleClass("fa-bars")
- 			$(this).children("svg").toggleClass("fa-times")
- 		$('.sidebar-menu').slideToggle()
+  		$(this).children("svg").toggleClass("fa-bars");
+  		$(this).children("svg").toggleClass("fa-times");
+   		$('.sidebar-menu').slideToggle();
+   		val1 = 1;
+   	}
+   	else {
+   		$('.sidebar-menu').slideToggle();
+   		$(this).children("svg").toggleClass("fa-bars");
+   		$(this).children("svg").toggleClass("fa-times");
+   		val1 = 0;
+   	}
+ 	});
+ });
 
- 		val1 = 1;
- 	
- 	}
- 	else {
- 		$('.sidebar-menu').slideToggle()
- 		$(this).children("svg").toggleClass("fa-bars")
- 			$(this).children("svg").toggleClass("fa-times")
- 		val1 = 0;
-
- 	}
- 	})
- })
-
-
- // VERSION WITHOUT BOOTSTRAP 4 : https://codepen.io/seltix/pen/LygQXx
 
 jQuery('.dropdown-menu.keep-open').on('click', function (e) {
   e.stopPropagation();
