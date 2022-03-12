@@ -100,6 +100,29 @@ use Illuminate\Support\Facades\Route;
 
 					Route::get('/', 'adminController@index')->name('admin.dashboard');
 
+					//Product
+						Route::prefix('products')->group(function(){
+							Route::get('/', 'ProductController@product')->name('products.product');
+						});	
+
+					//Fabric
+						Route::prefix('fabric')->group(function(){
+							Route::get('/', 'FabricController@index')->name('admin.fabric');
+							Route::get('/add', 'FabricController@add')->name('admin.fabric.add');
+							Route::post('/add', 'FabricController@addSubmit');
+							Route::get('/getCategory/{id}', 'FabricController@getSubCategory');
+							Route::get('/edit/{id}', 'FabricController@edit');
+							Route::post('/update', 'FabricController@update')->name('admin.fabric.update');
+							Route::get('/delete/{id}', 'FabricController@delete');
+
+
+							Route::prefix('measurement')->group(function(){
+								Route::get('/ai-measurement', 'MeasurementController@Aimeasurement')->name('fabric.measurement.ai-measurement');
+								Route::get('/manual-measurement', 'MeasurementController@Manualmeasurement')->name('fabric.measurement.manual-measurement');
+								Route::get('/standard-measurement', 'MeasurementController@Standmeasurement')->name('fabric.measurement.standard-measurement');
+							});
+						});
+
 					//General Settings
 						Route::prefix('settings')->group(function(){
 							//Categories
@@ -224,27 +247,6 @@ use Illuminate\Support\Facades\Route;
 						});
 
 					});
-
-					Route::prefix('fabric')->group(function(){
-
-					Route::get('/', 'FabricController@fabric')->name('fabric.fabric');
-
-					Route::prefix('measurement')->group(function(){
-
-					Route::get('/ai-measurement', 'MeasurementController@Aimeasurement')->name('fabric.measurement.ai-measurement');
-					Route::get('/manual-measurement', 'MeasurementController@Manualmeasurement')->name('fabric.measurement.manual-measurement');
-					Route::get('/standard-measurement', 'MeasurementController@Standmeasurement')->name('fabric.measurement.standard-measurement');
-
-					});
-
-
-					});
-			 
-					Route::prefix('products')->group(function(){
-
-						Route::get('/', 'ProductController@product')->name('products.product');
-
-					});	
 
 					Route::prefix('discount')->group(function(){
 

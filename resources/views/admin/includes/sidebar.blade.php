@@ -3,7 +3,7 @@
       <div id="accordion">
          <div class="panel panel-default">
             <div class="panel-heading">
-               <a href="{{URL::to('/admin')}}/index"> <img src="{{URL::to('/public/admin')}}/images/menu-icon1.png"> Dashboard </a>
+               <a href="{{URL::to('/admin')}}"> <img src="{{URL::to('/public/admin')}}/images/menu-icon1.png"> Dashboard </a>
             </div>
          </div>
          <div class="panel panel-default">

@@ -6,3 +6,9 @@
     background-color: #044372;
     border-color: #004374;
 }
+.pull-right {
+    float: right;
+}
+.add-btn{
+    margin-top: -45px;
+}
