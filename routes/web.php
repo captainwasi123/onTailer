@@ -105,6 +105,11 @@ use Illuminate\Support\Facades\Route;
 							Route::get('/', 'ProductController@product')->name('products.product');
 						});	
 
+					//Discount
+						Route::prefix('discount')->group(function(){
+							Route::get('/', 'DiscountController@discount')->name('discount.discount');
+						});	
+
 					//Fabric
 						Route::prefix('fabric')->group(function(){
 							Route::get('/', 'FabricController@index')->name('admin.fabric');
@@ -247,12 +252,6 @@ use Illuminate\Support\Facades\Route;
 						});
 
 					});
-
-					Route::prefix('discount')->group(function(){
-
-						Route::get('/', 'DiscountController@discount')->name('discount.discount');
-
-					});	
 
 				});
 
